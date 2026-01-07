@@ -10,7 +10,7 @@ const clothes = [
     },
     {
       id: 2,
-      name: "White Tee",
+      name: "SK-01",
       image: "images/sk-01-gray.jpeg",
       color: "Gray",
       type: "Sock",
@@ -19,3 +19,4 @@ const clothes = [
     }
   ];
   
+
