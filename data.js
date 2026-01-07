@@ -16,5 +16,15 @@ const clothes = [
     type: "sock",
     price: 20,
     season: 10
+  },
+    {
+    id: 3,
+    name: "SK-01",
+    image: "images/sk-01-black.jpeg",
+    color: "black",
+    type: "sock",
+    price: 20,
+    season: 10
   }
 ];
+
