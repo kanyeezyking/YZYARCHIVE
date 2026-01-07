@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- FILTER BAR -->
+  <div class="filters">
+    <select id="colorFilter">
+      <option value="">All Colors</option>
+      <option value="black">Black</option>
+      <option value="white">White</option>
+      <option value="gray">Gray</option>
+    </select>
+
+    <select id="typeFilter">
+      <option value="">All Types</option>
+      <option value="sock">Sock</option>
+      <option value="tshirt">T-Shirt</option>
+    </select>
+
+    <select id="seasonFilter">
+      <option value="">All Seasons</option>
+      <option value="10">Season 10</option>
+      <option value="2">Season 2</option>
+    </select>
+
+    <select id="priceSort">
+      <option value="">Sort by Price</option>
+      <option value="low">Low → High</option>
+      <option value="high">High → Low</option>
+    </select>
+  </div>
+
+  <!-- ITEMS GRID -->
+  <div id="items" class="grid"></div>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
