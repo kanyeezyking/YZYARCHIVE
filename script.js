@@ -5,7 +5,7 @@ const typeFilter = document.getElementById("typeFilter");
 const seasonFilter = document.getElementById("seasonFilter");
 const priceSort = document.getElementById("priceSort");
 
-// Render items to the grid
+// Render items
 function renderItems(items) {
   itemsContainer.innerHTML = "";
 
@@ -29,44 +29,40 @@ function renderItems(items) {
   });
 }
 
-// Apply all filters at once
+// Apply all filters
 function applyFilters() {
   let filtered = [...clothes];
 
-  // Color filter (case-insensitive)
+  // Color filter
   if (colorFilter.value) {
     filtered = filtered.filter(
       item => item.color.toLowerCase().trim() === colorFilter.value.toLowerCase().trim()
     );
   }
 
-  // Type filter (case-insensitive)
+  // Type filter
   if (typeFilter.value) {
     filtered = filtered.filter(
       item => item.type.toLowerCase().trim() === typeFilter.value.toLowerCase().trim()
     );
   }
 
-  // Season filter (numbers)
+  // Season filter
   if (seasonFilter.value) {
     filtered = filtered.filter(item => item.season == seasonFilter.value);
   }
 
-  // Price sorting
-  if (priceSort.value === "low") {
-    filtered.sort((a, b) => a.price - b.price);
-  }
-  if (priceSort.value === "high") {
-    filtered.sort((a, b) => b.price - a.price);
-  }
+  // Price sort
+  if (priceSort.value === "low") filtered.sort((a,b) => a.price - b.price);
+  if (priceSort.value === "high") filtered.sort((a,b) => b.price - a.price);
 
   renderItems(filtered);
 }
 
-// Initial load
+// Initial render
 renderItems(clothes);
 
-// Event listeners for all filters
+// Event listeners
 [colorFilter, typeFilter, seasonFilter, priceSort].forEach(filter =>
   filter.addEventListener("change", applyFilters)
 );
