@@ -586,14 +586,24 @@ const clothes = [
   },
   {
     id: 66,
-    name: "SL-02",
+    name: "SL-03",
     image: "images/SL-03-BLACK.jpeg",
     color: "black",
     type: "shoe",
     price: 100,
     year: 2025
+  },
+  {
+    id: 67,
+    name: "UW-02",
+    image: "images/uw-01-black.jpeg",
+    color: "black",
+    type: "underwear",
+    price: 20,
+    year: 2025
   }
 ];
+
 
 
 
