@@ -2,7 +2,7 @@ const itemsContainer = document.getElementById("items");
 
 const colorFilter = document.getElementById("colorFilter");
 const typeFilter = document.getElementById("typeFilter");
-const seasonFilter = document.getElementById("seasonFilter");
+const yearFilter = document.getElementById("yearFilter");
 const priceSort = document.getElementById("priceSort");
 
 // Render items
@@ -22,7 +22,7 @@ function renderItems(items) {
       <img src="${item.image}" alt="${item.name}">
       <h4>${item.name}</h4>
       <p>$${item.price}</p>
-      <p>Season ${item.season}</p>
+      <p>Season ${item.year}</p>
     `;
 
     itemsContainer.appendChild(div);
@@ -48,8 +48,8 @@ function applyFilters() {
   }
 
   // Season filter
-  if (seasonFilter.value) {
-    filtered = filtered.filter(item => item.season == seasonFilter.value);
+  if (yearFilter.value) {
+    filtered = filtered.filter(item => item.year == yearFilter.value);
   }
 
   // Price sort
@@ -63,6 +63,7 @@ function applyFilters() {
 renderItems(clothes);
 
 // Event listeners
-[colorFilter, typeFilter, seasonFilter, priceSort].forEach(filter =>
+[colorFilter, typeFilter, yearFilter, priceSort].forEach(filter =>
   filter.addEventListener("change", applyFilters)
 );
+
