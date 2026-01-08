@@ -21,7 +21,7 @@ const clothes = [
     id: 3,
     name: "SK-01",
     image: "images/sk-01-black.jpeg",
-    color: "charcoal",
+    color: "black",
     type: "sock",
     price: 20,
     year: 2025
@@ -79,8 +79,117 @@ const clothes = [
     type: "sweatpant",
     price: 40,
     year: 2025
+  },
+  {
+    id: 10,
+    name: "TS-01",
+    image: "images/ts-01-white.jpeg",
+    color: "white",
+    type: "tshirt",
+    price: 20,
+    year: 2025
+  },
+  {
+    id: 11,
+    name: "TS-01",
+    image: "images/ts-01-gray.jpeg",
+    color: "gray",
+    type: "tshirt",
+    price: 20,
+    year: 2025
+  },
+  {
+    id: 12,
+    name: "TS-01",
+    image: "images/ts-01-black.jpeg",
+    color: "black",
+    type: "tshirt",
+    price: 20,
+    year: 2025
+  },
+  {
+    id: 13,
+    name: "TS-02",
+    image: "images/ts-02-white.jpeg",
+    color: "white",
+    type: "tshirt",
+    price: 20,
+    year: 2025
+  },
+  {
+    id: 14,
+    name: "TS-02",
+    image: "images/ts-02-black.jpeg",
+    color: "black",
+    type: "tshirt",
+    price: 20,
+    year: 2025
+  },
+  {
+    id: 15,
+    name: "TS-03",
+    image: "images/ts-03-black.jpeg",
+    color: "black",
+    type: "tshirt",
+    price: 40,
+    year: 2025
+  },
+  {
+    id: 16,
+    name: "TS-03",
+    image: "images/ts-03-cream.jpeg",
+    color: "cream",
+    type: "tshirt",
+    price: 40,
+    year: 2025
+  },
+  {
+    id: 17,
+    name: "TS-03",
+    image: "images/ts-03-olive.jpeg",
+    color: "olive",
+    type: "tshirt",
+    price: 40,
+    year: 2025
+  },
+  {
+    id: 18,
+    name: "TS-04",
+    image: "images/ts-04-black.jpeg",
+    color: "black",
+    type: "tshirt",
+    price: 20,
+    year: 2025
+  },
+  {
+    id: 19,
+    name: "TS-05",
+    image: "images/ts-05-black.jpeg",
+    color: "black",
+    type: "tshirt",
+    price: 40,
+    year: 2025
+  },
+  {
+    id: 20,
+    name: "TS-07",
+    image: "images/ts-07-white.jpeg",
+    color: "white",
+    type: "tshirt",
+    price: 20,
+    year: 2025
+  },
+   {
+    id: 21,
+    name: "TS-07",
+    image: "images/ts-07-black.jpeg",
+    color: "black",
+    type: "tshirt",
+    price: 20,
+    year: 2025
   }
 ];
+
 
 
 
