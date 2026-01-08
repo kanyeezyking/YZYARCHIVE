@@ -301,7 +301,7 @@ const clothes = [
     name: "WB-01",
     image: "images/WB-01-black.jpeg",
     color: "black",
-    type: "windbreaker",
+    type: "jacket",
     price: 40,
     year: 2025
   },
@@ -310,7 +310,7 @@ const clothes = [
     name: "WB-01",
     image: "images/WB-01-gray.jpeg",
     color: "gray",
-    type: "windbreaker",
+    type: "jacket",
     price: 40,
     year: 2025
   },
@@ -319,7 +319,7 @@ const clothes = [
     name: "WB-04",
     image: "images/WB-04-brown.jpeg",
     color: "brown",
-    type: "windbreaker",
+    type: "jacket",
     price: 40,
     year: 2025
   },
@@ -328,7 +328,7 @@ const clothes = [
     name: "WB-04",
     image: "images/WB-04-olive.jpeg",
     color: "green",
-    type: "windbreaker",
+    type: "jacket",
     price: 40,
     year: 2025
   },
@@ -639,6 +639,7 @@ const clothes = [
     year: 2025
   }
 ];
+
 
 
 
