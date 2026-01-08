@@ -289,7 +289,7 @@ const clothes = [
   },
   {
     id: 33,
-    name: "Sh-06",
+    name: "SH-06",
     image: "images/sh-06-black.jpeg",
     color: "black",
     type: "short",
@@ -297,6 +297,7 @@ const clothes = [
     year: 2025
   }
 ];
+
 
 
 
