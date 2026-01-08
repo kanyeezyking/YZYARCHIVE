@@ -13,28 +13,19 @@ const modalDescription = document.getElementById("modalDescription");
 const closeModal = document.getElementById("closeModal");
 
 
-function renderItems(items) {
-  itemsContainer.innerHTML = "";
+items.forEach(item => {
+  const div = document.createElement("div");
+  div.className = "item";
 
-  if (items.length === 0) {
-    itemsContainer.innerHTML = "<p>No items match your filters.</p>";
-    return;
-  }
+  div.innerHTML = `
+    <img src="${item.image}">
+    <h4>${item.name}</h4>
+    <p>$${item.price}</p>
+    <p>Year ${item.year}</p>
+  `;
 
-  items.forEach(item => {
-    const div = document.createElement("div");
-    div.className = "item";
-
-    div.innerHTML = `
-      <img src="${item.image}">
-      <h4>${item.name}</h4>
-      <p>$${item.price}</p>
-      <p>Year ${item.year}</p>
-    `;
-
-    itemsContainer.appendChild(div);
-  });
-}
+  itemsContainer.appendChild(div);
+});
 
 function applyFilters() {
   let filtered = [...clothes];
@@ -62,9 +53,30 @@ function applyFilters() {
   renderItems(filtered);
 }
 
+function openModal(item) {
+  modalImage.src = item.image;
+  modalName.textContent = item.name;
+  modalPrice.textContent = `$${item.price}`;
+  modalYear.textContent = `Year ${item.year}`;
+  modalDescription.textContent = item.description;
+
+  modal.style.display = "flex";
+}
+
+function closeItemModal() {
+  modal.style.display = "none";
+}
+
+closeModal.addEventListener("click", closeItemModal);
+
+modal.addEventListener("click", e => {
+  if (e.target === modal) closeItemModal();
+});
+
 renderItems(clothes);
 
 [colorFilter, typeFilter, yearFilter, priceSort].forEach(filter =>
   filter.addEventListener("change", applyFilters)
 );
+
 
