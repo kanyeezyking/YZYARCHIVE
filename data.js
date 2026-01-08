@@ -430,8 +430,9 @@ const clothes = [
     type: "jacket",
     price: 80,
     year: 2025
-  },
+  }
 ];
+
 
 
 
