@@ -5,7 +5,6 @@ const typeFilter = document.getElementById("typeFilter");
 const yearFilter = document.getElementById("yearFilter");
 const priceSort = document.getElementById("priceSort");
 
-// Render items
 function renderItems(items) {
   itemsContainer.innerHTML = "";
 
@@ -19,7 +18,7 @@ function renderItems(items) {
     div.className = "item";
 
     div.innerHTML = `
-      <img src="${item.image}" alt="${item.name}">
+      <img src="${item.image}">
       <h4>${item.name}</h4>
       <p>$${item.price}</p>
       <p>Year ${item.year}</p>
@@ -29,43 +28,34 @@ function renderItems(items) {
   });
 }
 
-// Apply all filters
 function applyFilters() {
   let filtered = [...clothes];
 
-  // Color filter
   if (colorFilter.value) {
-    filtered = filtered.filter(
-      item => item.color.toLowerCase().trim() === colorFilter.value.toLowerCase().trim()
-    );
+    filtered = filtered.filter(item => item.color === colorFilter.value);
   }
 
-  // Type filter
   if (typeFilter.value) {
-    filtered = filtered.filter(
-      item => item.type.toLowerCase().trim() === typeFilter.value.toLowerCase().trim()
-    );
+    filtered = filtered.filter(item => item.type === typeFilter.value);
   }
 
-  // Season filter
   if (yearFilter.value) {
     filtered = filtered.filter(item => item.year == yearFilter.value);
   }
 
-  // Price sort
-  if (priceSort.value === "low") filtered.sort((a,b) => a.price - b.price);
-  if (priceSort.value === "high") filtered.sort((a,b) => b.price - a.price);
+  if (priceSort.value === "low") {
+    filtered.sort((a, b) => a.price - b.price);
+  }
+
+  if (priceSort.value === "high") {
+    filtered.sort((a, b) => b.price - a.price);
+  }
 
   renderItems(filtered);
 }
 
-// Initial render
 renderItems(clothes);
 
-// Event listeners
 [colorFilter, typeFilter, yearFilter, priceSort].forEach(filter =>
   filter.addEventListener("change", applyFilters)
 );
-
-
-
