@@ -4,6 +4,14 @@ const colorFilter = document.getElementById("colorFilter");
 const typeFilter = document.getElementById("typeFilter");
 const yearFilter = document.getElementById("yearFilter");
 const priceSort = document.getElementById("priceSort");
+const modal = document.getElementById("itemModal");
+const modalImage = document.getElementById("modalImage");
+const modalName = document.getElementById("modalName");
+const modalPrice = document.getElementById("modalPrice");
+const modalYear = document.getElementById("modalYear");
+const modalDescription = document.getElementById("modalDescription");
+const closeModal = document.getElementById("closeModal");
+
 
 function renderItems(items) {
   itemsContainer.innerHTML = "";
@@ -59,3 +67,4 @@ renderItems(clothes);
 [colorFilter, typeFilter, yearFilter, priceSort].forEach(filter =>
   filter.addEventListener("change", applyFilters)
 );
+
