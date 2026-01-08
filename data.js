@@ -508,11 +508,12 @@ const clothes = [
     name: "PD-01",
     image: "images/PD-01-black.jpeg",
     color: "black",
-    type: "shoes",
+    type: "shoe",
     price: 20,
     year: 2025
   }
 ];
+
 
 
 
