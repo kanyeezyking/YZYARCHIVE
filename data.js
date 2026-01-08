@@ -601,8 +601,45 @@ const clothes = [
     type: "underwear",
     price: 20,
     year: 2025
+  },
+  {
+    id: 68,
+    name: "LG-01",
+    image: "images/LG-01-black.jpeg",
+    color: "black",
+    type: "leggings",
+    price: 40,
+    year: 2025
+  },
+  {
+    id: 69,
+    name: "LG-04",
+    image: "images/LG-04-black.jpeg",
+    color: "black",
+    type: "leggings",
+    price: 40,
+    year: 2025
+  },
+  {
+    id: 70,
+    name: "LG-13",
+    image: "images/LG-13-black.jpeg",
+    color: "black",
+    type: "leggings",
+    price: 40,
+    year: 2025
+  },
+  {
+    id: 71,
+    name: "LG-14",
+    image: "images/LG-14-black.jpeg",
+    color: "black",
+    type: "leggings",
+    price: 40,
+    year: 2025
   }
 ];
+
 
 
 
