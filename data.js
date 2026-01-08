@@ -268,8 +268,36 @@ const clothes = [
     type: "hoodie",
     price: 40,
     year: 2025
+  },
+  {
+    id: 31,
+    name: "SH-01",
+    image: "images/sh-01-black.jpeg",
+    color: "black",
+    type: "short",
+    price: 20,
+    year: 2025
+  },
+  {
+    id: 32,
+    name: "SH-01",
+    image: "images/sh-01-gray.jpeg",
+    color: "gray",
+    type: "short",
+    price: 20,
+    year: 2025
+  },
+  {
+    id: 33,
+    name: "Sh-06",
+    image: "images/sh-06-black.jpeg",
+    color: "black",
+    type: "short",
+    price: 20,
+    year: 2025
   }
 ];
+
 
 
 
