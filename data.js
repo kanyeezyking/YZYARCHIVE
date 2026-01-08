@@ -6,7 +6,7 @@ const clothes = [
     color: "white",
     type: "sock",
     price: 20,
-    season: 10
+    year: 25
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const clothes = [
     color: "gray",
     type: "sock",
     price: 20,
-    season: 10
+    year: 25
   },
   {
     id: 3,
@@ -24,8 +24,9 @@ const clothes = [
     color: "black",
     type: "sock",
     price: 20,
-    season: 10
+    year: 25
   }
 ];
+
 
 
