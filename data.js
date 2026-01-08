@@ -430,8 +430,27 @@ const clothes = [
     type: "jacket",
     price: 80,
     year: 2025
+  },
+  {
+    id: 49,
+    name: "BP-01",
+    image: "images/BP-01-black.jpeg",
+    color: "black",
+    type: "backpack",
+    price: 40,
+    year: 2025
+  },
+  {
+    id: 50,
+    name: "BP-02",
+    image: "images/BP-02-black.jpeg",
+    color: "black",
+    type: "backpack",
+    price: 40,
+    year: 2025
   }
 ];
+
 
 
 
