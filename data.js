@@ -295,8 +295,45 @@ const clothes = [
     type: "short",
     price: 20,
     year: 2025
+  },
+  {
+    id: 34,
+    name: "WB-01",
+    image: "images/WB-01-black.jpeg",
+    color: "black",
+    type: "windbreaker",
+    price: 40,
+    year: 2025
+  },
+  {
+    id: 35,
+    name: "WB-01",
+    image: "images/WB-01-gray.jpeg",
+    color: "gray",
+    type: "windbreaker",
+    price: 40,
+    year: 2025
+  },
+  {
+    id: 36,
+    name: "WB-04",
+    image: "images/WB-04-brown.jpeg",
+    color: "brown",
+    type: "windbreaker",
+    price: 40,
+    year: 2025
+  },
+  {
+    id: 37,
+    name: "WB-04",
+    image: "images/WB-04-olive.jpeg",
+    color: "green",
+    type: "windbreaker",
+    price: 40,
+    year: 2025
   }
 ];
+
 
 
 
