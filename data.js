@@ -637,8 +637,45 @@ const clothes = [
     type: "leggings",
     price: 40,
     year: 2025
+  },
+  {
+    id: 72,
+    name: "PT-10",
+    image: "images/PT-03-black.jpeg",
+    color: "black",
+    type: "pants",
+    price: 40,
+    year: 2025
+  },
+  {
+    id: 73,
+    name: "PT-10",
+    image: "images/PT-04-Black.jpeg",
+    color: "black",
+    type: "pants",
+    price: 40,
+    year: 2025
+  },
+  {
+    id: 74,
+    name: "PT-10",
+    image: "images/PT-05-black.jpeg",
+    color: "black",
+    type: "pants",
+    price: 40,
+    year: 2025
+  },
+  {
+    id: 75,
+    name: "PT-10",
+    image: "images/PT-10-black.jpeg",
+    color: "black",
+    type: "pants",
+    price: 40,
+    year: 2025
   }
 ];
+
 
 
 
