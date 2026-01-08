@@ -61,8 +61,9 @@ const clothes = [
     type: "sweatpant",
     price: 40,
     year: 2025
-  },
+  }
 ];
+
 
 
 
