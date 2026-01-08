@@ -511,8 +511,18 @@ const clothes = [
     type: "shoe",
     price: 20,
     year: 2025
+  },
+  {
+    id: 58,
+    name: "HB-01",
+    image: "images/HB-01-black.jpeg",
+    color: "black",
+    type: "shoe",
+    price: 100,
+    year: 2025
   }
 ];
+
 
 
 
