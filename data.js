@@ -331,8 +331,108 @@ const clothes = [
     type: "windbreaker",
     price: 40,
     year: 2025
-  }
+  },
+  {
+    id: 38,
+    name: "JC-01",
+    image: "images/JC-01-Black.jpeg",
+    color: "black",
+    type: "jacket",
+    price: 60,
+    year: 2025
+  },
+  {
+    id: 39,
+    name: "JC-04",
+    image: "images/JC-04-green.jpeg",
+    color: "green",
+    type: "jacket",
+    price: 80,
+    year: 2025
+  },
+  {
+    id: 40,
+    name: "JC-08",
+    image: "images/JC-08-White.jpeg",
+    color: "white",
+    type: "jacket",
+    price: 80,
+    year: 2025
+  },
+  {
+    id: 41,
+    name: "JC-09",
+    image: "images/JC-09-black.jpeg",
+    color: "black",
+    type: "jacket",
+    price: 60,
+    year: 2025
+  },
+  {
+    id: 42,
+    name: "JC-09",
+    image: "images/JC-09-cream.jpeg",
+    color: "cream",
+    type: "jacket",
+    price: 60,
+    year: 2025
+  },
+  {
+    id: 43,
+    name: "JC-10",
+    image: "images/JC-10-BLACK.jpeg",
+    color: "black",
+    type: "jacket",
+    price: 60,
+    year: 2025
+  },
+  {
+    id: 44,
+    name: "JC-11",
+    image: "images/JC-11-BLACK.jpeg",
+    color: "black",
+    type: "jacket",
+    price: 60,
+    year: 2025
+  },
+  {
+    id: 45,
+    name: "JC-03",
+    image: "images/jc-03-black.jpeg",
+    color: "black",
+    type: "jacket",
+    price: 40,
+    year: 2025
+  },
+  {
+    id: 46,
+    name: "JC-05",
+    image: "images/jc-05-black.jpeg",
+    color: "black",
+    type: "jacket",
+    price: 60,
+    year: 2025
+  },
+  {
+    id: 47,
+    name: "JC-07",
+    image: "images/jc-07-black.jpeg",
+    color: "black",
+    type: "jacket",
+    price: 60,
+    year: 2025
+  },
+  {
+    id: 48,
+    name: "JC-08",
+    image: "images/jc-08-black.jpeg",
+    color: "black",
+    type: "jacket",
+    price: 80,
+    year: 2025
+  },
 ];
+
 
 
 
