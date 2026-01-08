@@ -22,7 +22,7 @@ function renderItems(items) {
       <img src="${item.image}" alt="${item.name}">
       <h4>${item.name}</h4>
       <p>$${item.price}</p>
-      <p>Season ${item.year}</p>
+      <p>Year ${item.year}</p>
     `;
 
     itemsContainer.appendChild(div);
@@ -66,4 +66,5 @@ renderItems(clothes);
 [colorFilter, typeFilter, yearFilter, priceSort].forEach(filter =>
   filter.addEventListener("change", applyFilters)
 );
+
 
