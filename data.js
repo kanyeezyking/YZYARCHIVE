@@ -39,7 +39,7 @@ const clothes = [
     id: 5,
     name: "SP-01",
     image: "images/sp-01-charcoal.jpeg",
-    color: "charcoal",
+    color: "black",
     type: "sweatpant",
     price: 40,
     year: 2025
@@ -57,7 +57,7 @@ const clothes = [
     id: 7,
     name: "SP-06",
     image: "images/sp-06-charcoal.jpeg",
-    color: "charcoal",
+    color: "black",
     type: "sweatpant",
     price: 40,
     year: 2025
@@ -475,8 +475,36 @@ const clothes = [
     type: "sunglass",
     price: 20,
     year: 2025
+  },
+  {
+    id: 54,
+    name: "HT-01",
+    image: "images/HT-01-Black.jpeg",
+    color: "black",
+    type: "hat",
+    price: 20,
+    year: 2025
+  },
+  {
+    id: 55,
+    name: "HT-04",
+    image: "images/HT-04-black.jpeg",
+    color: "black",
+    type: "hat",
+    price: 20,
+    year: 2025
+  },
+  {
+    id: 56,
+    name: "HT-05",
+    image: "images/ht-05-black.jpeg",
+    color: "black",
+    type: "hat",
+    price: 20,
+    year: 2025
   }
 ];
+
 
 
 
