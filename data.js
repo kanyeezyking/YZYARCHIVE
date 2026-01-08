@@ -187,8 +187,90 @@ const clothes = [
     type: "tshirt",
     price: 20,
     year: 2025
+  },
+  {
+    id: 22,
+    name: "HD-01",
+    image: "images/hd-01-gray.jpeg",
+    color: "gray",
+    type: "hoodie",
+    price: 40,
+    year: 2025
+  },
+   {
+    id: 23,
+    name: "HD-01",
+    image: "images/hd-01-white.jpeg",
+    color: "white",
+    type: "hoodie",
+    price: 40,
+    year: 2025
+  },
+   {
+    id: 24,
+    name: "HD-02",
+    image: "images/hd-02-black.jpeg",
+    color: "black",
+    type: "hoodie",
+    price: 40,
+    year: 2025
+  },
+  {
+    id: 25,
+    name: "HD-03",
+    image: "images/hd-03-Black.jpeg",
+    color: "black",
+    type: "hoodie",
+    price: 40,
+    year: 2025
+  },
+  {
+    id: 26,
+    name: "HD-10",
+    image: "images/hd-10-gray.jpeg",
+    color: "gray",
+    type: "hoodie",
+    price: 40,
+    year: 2025
+  },
+  {
+    id: 27,
+    name: "HD-10",
+    image: "images/HD-10-Black.jpeg",
+    color: "black",
+    type: "hoodie",
+    price: 40,
+    year: 2025
+  },
+  {
+    id: 28,
+    name: "HD-01",
+    image: "images/HD-01-Black.jpeg",
+    color: "black",
+    type: "hoodie",
+    price: 40,
+    year: 2025
+  },
+  {
+    id: 29,
+    name: "HD-04",
+    image: "images/HD-04-blue.jpeg",
+    color: "blue",
+    type: "hoodie",
+    price: 40,
+    year: 2025
+  },
+  {
+    id: 30,
+    name: "HD-04",
+    image: "images/HD-04-gray.jpeg",
+    color: "gray",
+    type: "hoodie",
+    price: 40,
+    year: 2025
   }
 ];
+
 
 
 
