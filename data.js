@@ -6,7 +6,8 @@ const clothes = [
     color: "white",
     type: "sock",
     price: 20,
-    year: 2025
+    year: 2025,
+    description: "Midweight Sock"
   },
   {
     id: 2,
@@ -675,6 +676,7 @@ const clothes = [
     year: 2025
   }
 ];
+
 
 
 
