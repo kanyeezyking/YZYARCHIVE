@@ -547,8 +547,54 @@ const clothes = [
     type: "shoe",
     price: 60,
     year: 2025
+  },
+  {
+    id: 62,
+    name: "SL-01",
+    image: "images/SL-01-WHITE.jpeg",
+    color: "white",
+    type: "shoe",
+    price: 20,
+    year: 2025
+  },
+  {
+    id: 63,
+    name: "SL-01",
+    image: "images/SL-01-GRAY.jpeg",
+    color: "gray",
+    type: "shoe",
+    price: 20,
+    year: 2025
+  },
+  {
+    id: 64,
+    name: "SL-01",
+    image: "images/SL-01-black.jpeg",
+    color: "black",
+    type: "shoe",
+    price: 20,
+    year: 2025
+  },
+  {
+    id: 65,
+    name: "SL-02",
+    image: "images/SL-02-black.jpeg",
+    color: "black",
+    type: "shoe",
+    price: 40,
+    year: 2025
+  },
+  {
+    id: 66,
+    name: "SL-02",
+    image: "images/SL-03-BLACK.jpeg",
+    color: "black",
+    type: "shoe",
+    price: 100,
+    year: 2025
   }
 ];
+
 
 
 
