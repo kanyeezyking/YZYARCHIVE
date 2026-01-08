@@ -61,8 +61,27 @@ const clothes = [
     type: "sweatpant",
     price: 40,
     year: 2025
+  },
+  {
+    id: 8,
+    name: "SP-08",
+    image: "images/sp-08-gray.jpeg",
+    color: "gray",
+    type: "sweatpant",
+    price: 40,
+    year: 2025
+  },
+  {
+    id: 9,
+    name: "SP-09",
+    image: "images/sp-09-gray.jpeg",
+    color: "gray",
+    type: "sweatpant",
+    price: 40,
+    year: 2025
   }
 ];
+
 
 
 
