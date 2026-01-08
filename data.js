@@ -7,7 +7,7 @@ const clothes = [
     type: "sock",
     price: 20,
     year: 2025,
-    description: "Midweight Sock"
+    description: "MIDWEIGHT SOCK"
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const clothes = [
     type: "sock",
     price: 20,
     year: 2025,
-    description: "Midweight Sock"
+    description: "MIDWEIGHT SOCK" 
     
   },
   {
@@ -28,7 +28,7 @@ const clothes = [
     type: "sock",
     price: 20,
     year: 2025,
-    description: "Midweight Sock"
+    description: "MIDWEIGHT SOCK"
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ const clothes = [
     type: "sweatpant",
     price: 40,
     year: 2025,
-    description: "Baggy Straight Leg Sweatpant, Two Side Pockets, Drawcord At Inner Waist"
+    description: "BAGGY STRAIGHT LEG SWEATPANT, TWO SIDE POCKETS, DRAWCORD AT INNER WAIST" 
   },
   {
     id: 5,
@@ -48,7 +48,7 @@ const clothes = [
     type: "sweatpant",
     price: 40,
     year: 2025,
-    description: "Baggy Straight Leg Sweatpant, Two Side Pockets, Drawcord At Inner Waist"
+    description: "BAGGY STRAIGHT LEG SWEATPANT, TWO SIDE POCKETS, DRAWCORD AT INNER WAIST" 
   },
   {
     id: 6,
@@ -58,7 +58,7 @@ const clothes = [
     type: "sweatpant",
     price: 40,
     year: 2025,
-    description: "Sweatpants With Elastic Cuff, Two Side Pockets, Drawcord At Inner Waist"
+    description: "SWEATPANTS WITH ELASTIC CUFF, TWO SIDE POCKETS, DRAWCORD AT INNER WAIST" 
   },
   {
     id: 7,
@@ -68,7 +68,7 @@ const clothes = [
     type: "sweatpant",
     price: 40,
     year: 2025,
-    description: "Sweatpants With Elastic Cuff, Two Side Pockets, Drawcord At Inner Waist"
+    description: "SWEATPANTS WITH ELASTIC CUFF, TWO SIDE POCKETS, DRAWCORD AT INNER WAIST" 
   },
   {
     id: 8,
@@ -78,7 +78,7 @@ const clothes = [
     type: "sweatpant",
     price: 40,
     year: 2025,
-    description: "Sweatpants With Elastic Cuff, Two Side Pockets, Drawcord At Inner Waist"
+    description: "SWEATPANTS WITH ELASTIC CUFF, TWO SIDE POCKETS, DRAWCORD AT INNER WAIST" 
   },
   {
     id: 9,
@@ -88,7 +88,7 @@ const clothes = [
     type: "sweatpant",
     price: 40,
     year: 2025,
-    description: "Baggy Straight Leg Sweatpant, Two Side Pockets, Drawcord At Inner Waist"
+    description: "BAGGY STRAIGHT LEG SWEATPANT, TWO SIDE POCKETS, DRAWCORD AT INNER WAIST" 
   },
   {
     id: 10,
@@ -98,7 +98,7 @@ const clothes = [
     type: "tshirt",
     price: 20,
     year: 2025,
-    description: "Boxy Fit T-Shirt, Seamless Drop Shoulder"
+    description: "BOXY FIT T-SHIRT,SEAMLESS DROP SHOULDER"
   },
   {
     id: 11,
@@ -108,7 +108,7 @@ const clothes = [
     type: "tshirt",
     price: 20,
     year: 2025,
-    description: "Boxy Fit T-Shirt, Seamless Drop Shoulder"
+    description: "BOXY FIT T-SHIRT,SEAMLESS DROP SHOULDER"
   },
   {
     id: 12,
@@ -118,7 +118,7 @@ const clothes = [
     type: "tshirt",
     price: 20,
     year: 2025,
-    description: "Boxy Fit T-Shirt, Seamless Drop Shoulder"
+    description: "BOXY FIT T-SHIRT,SEAMLESS DROP SHOULDER" 
   },
   {
     id: 13,
@@ -128,7 +128,7 @@ const clothes = [
     type: "tshirt",
     price: 20,
     year: 2025,
-    description: "Slim Fit Raglan T-Shirt"
+    description: "SLIM FIT RAGLAN T-SHIRT"
   },
   {
     id: 14,
@@ -138,6 +138,7 @@ const clothes = [
     type: "tshirt",
     price: 20,
     year: 2025
+description: "SLIM FIT RAGLAN T-SHIRT"
   },
   {
     id: 15,
@@ -146,7 +147,8 @@ const clothes = [
     color: "black",
     type: "tshirt",
     price: 40,
-    year: 2025
+    year: 2025,
+description: "3 PACK SHRUNKEN TEE" 
   },
   {
     id: 16,
@@ -155,7 +157,8 @@ const clothes = [
     color: "cream",
     type: "tshirt",
     price: 40,
-    year: 2025
+    year: 2025,
+description: "3 PACK SHRUNKEN TEE" 
   },
   {
     id: 17,
@@ -164,7 +167,8 @@ const clothes = [
     color: "olive",
     type: "tshirt",
     price: 40,
-    year: 2025
+    year: 2025,
+description: "3 PACK SHRUNKEN TEE" 
   },
   {
     id: 18,
