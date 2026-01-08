@@ -16,7 +16,9 @@ const clothes = [
     color: "gray",
     type: "sock",
     price: 20,
-    year: 2025
+    year: 2025,
+    description: "Midweight Sock"
+    
   },
   {
     id: 3,
@@ -25,7 +27,8 @@ const clothes = [
     color: "black",
     type: "sock",
     price: 20,
-    year: 2025
+    year: 2025,
+    description: "Midweight Sock"
   },
   {
     id: 4,
@@ -34,7 +37,8 @@ const clothes = [
     color: "white",
     type: "sweatpant",
     price: 40,
-    year: 2025
+    year: 2025,
+    description: "Baggy Straight Leg Sweatpant, Two Side Pockets, Drawcord At Inner Waist"
   },
   {
     id: 5,
@@ -43,7 +47,8 @@ const clothes = [
     color: "black",
     type: "sweatpant",
     price: 40,
-    year: 2025
+    year: 2025,
+    description: "Baggy Straight Leg Sweatpant, Two Side Pockets, Drawcord At Inner Waist"
   },
   {
     id: 6,
@@ -52,7 +57,8 @@ const clothes = [
     color: "white",
     type: "sweatpant",
     price: 40,
-    year: 2025
+    year: 2025,
+    description: "Sweatpants With Elastic Cuff, Two Side Pockets, Drawcord At Inner Waist"
   },
   {
     id: 7,
@@ -61,7 +67,8 @@ const clothes = [
     color: "black",
     type: "sweatpant",
     price: 40,
-    year: 2025
+    year: 2025,
+    description: "Sweatpants With Elastic Cuff, Two Side Pockets, Drawcord At Inner Waist"
   },
   {
     id: 8,
@@ -70,7 +77,8 @@ const clothes = [
     color: "gray",
     type: "sweatpant",
     price: 40,
-    year: 2025
+    year: 2025,
+    description: "Sweatpants With Elastic Cuff, Two Side Pockets, Drawcord At Inner Waist"
   },
   {
     id: 9,
@@ -79,16 +87,18 @@ const clothes = [
     color: "gray",
     type: "sweatpant",
     price: 40,
-    year: 2025
+    year: 2025,
+    description: "Baggy Straight Leg Sweatpant, Two Side Pockets, Drawcord At Inner Waist"
   },
   {
     id: 10,
-    name: "TS-01",
+    name:  "TS-01",
     image: "images/ts-01-white.jpeg",
     color: "white",
     type: "tshirt",
     price: 20,
-    year: 2025
+    year: 2025,
+    description: "Boxy Fit T-Shirt, Seamless Drop Shoulder"
   },
   {
     id: 11,
@@ -97,7 +107,8 @@ const clothes = [
     color: "gray",
     type: "tshirt",
     price: 20,
-    year: 2025
+    year: 2025,
+    description: "Boxy Fit T-Shirt, Seamless Drop Shoulder"
   },
   {
     id: 12,
@@ -106,7 +117,8 @@ const clothes = [
     color: "black",
     type: "tshirt",
     price: 20,
-    year: 2025
+    year: 2025,
+    description: "Boxy Fit T-Shirt, Seamless Drop Shoulder"
   },
   {
     id: 13,
@@ -115,7 +127,8 @@ const clothes = [
     color: "white",
     type: "tshirt",
     price: 20,
-    year: 2025
+    year: 2025,
+    description: "Slim Fit Raglan T-Shirt"
   },
   {
     id: 14,
@@ -676,6 +689,7 @@ const clothes = [
     year: 2025
   }
 ];
+
 
 
 
