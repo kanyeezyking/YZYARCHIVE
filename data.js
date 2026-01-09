@@ -137,8 +137,8 @@ const clothes = [
     color: "black",
     type: "tshirt",
     price: 20,
-    year: 2025
-description: "SLIM FIT RAGLAN T-SHIRT"
+    year: 2025,
+    description: "SLIM FIT RAGLAN T-SHIRT"
   },
   {
     id: 15,
@@ -148,7 +148,7 @@ description: "SLIM FIT RAGLAN T-SHIRT"
     type: "tshirt",
     price: 40,
     year: 2025,
-description: "3 PACK SHRUNKEN TEE" 
+    description: "3 PACK SHRUNKEN TEE" 
   },
   {
     id: 16,
@@ -158,7 +158,7 @@ description: "3 PACK SHRUNKEN TEE"
     type: "tshirt",
     price: 40,
     year: 2025,
-description: "3 PACK SHRUNKEN TEE" 
+    description: "3 PACK SHRUNKEN TEE" 
   },
   {
     id: 17,
@@ -168,7 +168,7 @@ description: "3 PACK SHRUNKEN TEE"
     type: "tshirt",
     price: 40,
     year: 2025,
-description: "3 PACK SHRUNKEN TEE" 
+    description: "3 PACK SHRUNKEN TEE" 
   },
   {
     id: 18,
@@ -693,6 +693,7 @@ description: "3 PACK SHRUNKEN TEE"
     year: 2025
   }
 ];
+
 
 
 
