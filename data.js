@@ -999,8 +999,52 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "MILITARY CADET HAT, ADJUSTABLE TAB AT BACK"
+  },
+  {
+    id: 92,
+    name: "PK-01",
+    category: "outerwear",
+    image: "images/PK-01-BLACK.jpeg",
+    color: "black",
+    type: "parka",
+    price: 100,
+    year: 2025,
+    description: "FAUX LEATHER HOODED PARKA, FAUX FUR HOOD, PUFF INSULATION PADDING, TWO SIDE POCKETS"
+  },
+  {
+    id: 93,
+    name: "PK-01",
+    category: "outerwear",
+    image: "images/PK-01-blue.jpeg",
+    color: "green",
+    type: "parka",
+    price: 100,
+    year: 2025,
+    description: "FAUX FUR HOODED PARKA, PUFF INSULATION PADDING, TWO SIDE POCKETS"
+  },
+  {
+    id: 94,
+    name: "PK-01",
+    category: "outerwear",
+    image: "images/PK-01-camo.jpeg",
+    color: "green",
+    type: "parka",
+    price: 100,
+    year: 2025,
+    description: "FAUX FUR HOODED PARKA, PUFF INSULATION PADDING, TWO SIDE POCKETS"
+  },{
+    id: 95,
+    name: "PK-01",
+    category: "outerwear",
+    image: "images/PK-01-SNOW-CAMO.jpeg",
+    color: "white",
+    type: "parka",
+    price: 100,
+    year: 2025,
+    description: "FAUX FUR HOODED PARKA, PUFF INSULATION PADDING, TWO SIDE POCKETS"
   }
 ];
+
 
 
 
