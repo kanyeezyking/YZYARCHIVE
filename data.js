@@ -838,7 +838,7 @@ const clothes = [
   {
     id: 77,
     name: "BD-03",
-    category: "tops", "bottoms",
+    category: "tops",
     image: "images/BD-03-Black.jpeg",
     color: "black",
     type: "bodysuit",
@@ -849,7 +849,7 @@ const clothes = [
   {
     id: 78,
     name: "BD-04",
-    category: "tops", "bottoms",
+    category: "tops",
     image: "images/BD-04-black.jpeg",
     color: "black",
     type: "bodysuit",
@@ -860,7 +860,7 @@ const clothes = [
   {
     id: 79,
     name: "BD-10",
-    category: "tops", "bottoms",
+    category: "tops",
     image: "images/BD-10-black.jpeg",
     color: "black",
     type: "bodysuit",
@@ -902,6 +902,7 @@ const clothes = [
     description: "3 PACK BASE TANK"
   }
 ];
+
 
 
 
