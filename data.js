@@ -977,8 +977,20 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "YEEZY SLIDE"
+  },
+  {
+    id: 90,
+    name: "BT-01",
+    category: "accessories",
+    image: "images/BT-01-black.jpeg",
+    color: "black",
+    type: "belt",
+    price: 40,
+    year: 2025,
+    description: "LEATHER BELT, VELCRO SIZE ADJUSTMENT TAB"
   }
 ];
+
 
 
 
