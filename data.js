@@ -823,5 +823,17 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "COATED SCUBA LOW RISE TROUSER PANT"
+  },
+  {
+    id: 76,
+    name: "BR-01",
+    category: "undergarments",
+    image: "images/BR-01-black.jpeg",
+    color: "black",
+    type: "bra",
+    price: 20,
+    year: 2025,
+    description: "COTTON SPANDEX BRALETTE"
   }
 ];
+
