@@ -2,6 +2,7 @@ const clothes = [
   {
     id: 1,
     name: "SK-01",
+    category: "undergarments",
     image: "images/sk-01-white.jpeg",
     color: "white",
     type: "sock",
@@ -750,6 +751,7 @@ const clothes = [
     description: "COATED SCUBA LOW RISE TROUSER PANT"
   }
 ];
+
 
 
 
