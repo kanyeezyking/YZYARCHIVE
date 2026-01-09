@@ -836,7 +836,7 @@ const clothes = [
     description: "COTTON SPANDEX BRALETTE"
   },
   {
-    id: 76,
+    id: 77,
     name: "BD-03",
     category: "tops", "bottoms",
     image: "images/BD-03-Black.jpeg",
@@ -847,10 +847,10 @@ const clothes = [
     description: "SHINY TRICOT ADJUSTABLE STRAP CAMI BODYSUIT"
   },
   {
-    id: 76,
+    id: 78,
     name: "BD-04",
     category: "tops", "bottoms",
-    image: "images/BR-01-black.jpeg",
+    image: "images/BD-04-black.jpeg",
     color: "black",
     type: "bodysuit",
     price: 40,
@@ -858,16 +858,50 @@ const clothes = [
     description: "SHINY TRICOT FOOTED ADJUSTABLE STRAP JUMPSUIT"
   },
   {
-    id: 76,
+    id: 79,
     name: "BD-10",
     category: "tops", "bottoms",
-    image: "images/BR-01-black.jpeg",
+    image: "images/BD-10-black.jpeg",
     color: "black",
     type: "bodysuit",
     price: 40,
     year: 2025,
     description: "SHORT SLEEVE COTTON SPANDEX ROMPER"
+  },
+  {
+    id: 80,
+    name: "TT-02",
+    category: "tops",
+    image: "images/TT-02-Black.jpeg",
+    color: "black",
+    type: "tubetop",
+    price: 20,
+    year: 2025,
+    description: "SHINY TRICOT LONG TUBE TOP"
+  },
+  {
+    id: 81,
+    name: "TT-04",
+    category: "tops",
+    image: "images/TT-04-Black.jpeg",
+    color: "black",
+    type: "tubetop",
+    price: 20,
+    year: 2025,
+    description: "SHINY TRICOT TUBE TOP"
+  },
+  {
+    id: 82,
+    name: "TT-06",
+    category: "tops",
+    image: "images/TT-06-Black.jpeg",
+    color: "black",
+    type: "tanktop",
+    price: 40,
+    year: 2025,
+    description: "3 PACK BASE TANK"
   }
 ];
+
 
 
