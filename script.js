@@ -25,7 +25,7 @@ const closeModal = document.getElementById("closeModal");
 
 const typeOptionsByCategory = {
   shoes: ["sneaker", "boot", "heel", "slide"],
-  tops: ["tshirt", "longsleeve", "bodysuit"],
+  tops: ["tshirt", "longsleeve", "bodysuit", "tubetop", "tanktop"],
   bottoms: ["short", "leggings", "pants", "sweatpant", "bodysuit"],
   outerwear: ["jacket", "hoodie", "windbreaker"],
   accessories: ["hat", "sunglass", "backpack"],
@@ -175,5 +175,6 @@ typeFilter.addEventListener("change", applyFilters);
 ===================== */
 
 renderItems(clothes);
+
 
 
