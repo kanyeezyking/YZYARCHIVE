@@ -13,6 +13,7 @@ const clothes = [
   {
     id: 2,
     name: "SK-01",
+    category: "undergarments",
     image: "images/sk-01-gray.jpeg",
     color: "gray",
     type: "sock",
@@ -24,6 +25,7 @@ const clothes = [
   {
     id: 3,
     name: "SK-01",
+    category: "undergarments",
     image: "images/sk-01-black.jpeg",
     color: "black",
     type: "sock",
@@ -34,6 +36,7 @@ const clothes = [
   {
     id: 4,
     name: "SP-01",
+    category: "bottoms",
     image: "images/sp-01-white.jpeg",
     color: "white",
     type: "sweatpant",
@@ -44,6 +47,7 @@ const clothes = [
   {
     id: 5,
     name: "SP-01",
+    category: "bottoms",
     image: "images/sp-01-charcoal.jpeg",
     color: "black",
     type: "sweatpant",
@@ -54,6 +58,7 @@ const clothes = [
   {
     id: 6,
     name: "SP-06",
+    category: "bottoms",
     image: "images/sp-06-white.jpeg",
     color: "white",
     type: "sweatpant",
@@ -64,6 +69,7 @@ const clothes = [
   {
     id: 7,
     name: "SP-06",
+    category: "bottoms",
     image: "images/sp-06-charcoal.jpeg",
     color: "black",
     type: "sweatpant",
@@ -74,6 +80,7 @@ const clothes = [
   {
     id: 8,
     name: "SP-08",
+    category: "bottoms",
     image: "images/sp-08-gray.jpeg",
     color: "gray",
     type: "sweatpant",
@@ -84,6 +91,7 @@ const clothes = [
   {
     id: 9,
     name: "SP-09",
+    category: "bottoms",
     image: "images/sp-09-gray.jpeg",
     color: "gray",
     type: "sweatpant",
@@ -94,6 +102,7 @@ const clothes = [
   {
     id: 10,
     name:  "TS-01",
+    category: "tops",
     image: "images/ts-01-white.jpeg",
     color: "white",
     type: "tshirt",
@@ -104,6 +113,7 @@ const clothes = [
   {
     id: 11,
     name: "TS-01",
+    category: "tops",
     image: "images/ts-01-gray.jpeg",
     color: "gray",
     type: "tshirt",
@@ -114,6 +124,7 @@ const clothes = [
   {
     id: 12,
     name: "TS-01",
+    category: "tops",
     image: "images/ts-01-black.jpeg",
     color: "black",
     type: "tshirt",
@@ -124,6 +135,7 @@ const clothes = [
   {
     id: 13,
     name: "TS-02",
+    category: "tops",
     image: "images/ts-02-white.jpeg",
     color: "white",
     type: "tshirt",
@@ -134,6 +146,7 @@ const clothes = [
   {
     id: 14,
     name: "TS-02",
+    category: "tops",
     image: "images/ts-02-black.jpeg",
     color: "black",
     type: "tshirt",
@@ -144,6 +157,7 @@ const clothes = [
   {
     id: 15,
     name: "TS-03",
+    category: "tops",
     image: "images/ts-03-black.jpeg",
     color: "black",
     type: "tshirt",
@@ -154,6 +168,7 @@ const clothes = [
   {
     id: 16,
     name: "TS-03",
+    category: "tops",
     image: "images/ts-03-cream.jpeg",
     color: "cream",
     type: "tshirt",
@@ -164,6 +179,7 @@ const clothes = [
   {
     id: 17,
     name: "TS-03",
+    category: "tops",
     image: "images/ts-03-olive.jpeg",
     color: "olive",
     type: "tshirt",
@@ -174,6 +190,7 @@ const clothes = [
   {
     id: 18,
     name: "TS-04",
+    category: "tops",
     image: "images/ts-04-black.jpeg",
     color: "black",
     type: "tshirt",
@@ -184,6 +201,7 @@ const clothes = [
   {
     id: 19,
     name: "TS-05",
+    category: "tops",
     image: "images/ts-05-black.jpeg",
     color: "black",
     type: "tshirt",
@@ -194,6 +212,7 @@ const clothes = [
   {
     id: 20,
     name: "TS-07",
+    category: "tops",
     image: "images/ts-07-white.jpeg",
     color: "white",
     type: "tshirt",
@@ -204,6 +223,7 @@ const clothes = [
    {
     id: 21,
     name: "TS-07",
+    category: "tops",
     image: "images/ts-07-black.jpeg",
     color: "black",
     type: "tshirt",
@@ -213,6 +233,7 @@ const clothes = [
   {
     id: 22,
     name: "HD-01",
+    category: "outerwear",
     image: "images/hd-01-gray.jpeg",
     color: "gray",
     type: "hoodie",
@@ -223,6 +244,7 @@ const clothes = [
    {
     id: 23,
     name: "HD-01",
+    category: "outerwear",
     image: "images/hd-01-white.jpeg",
     color: "white",
     type: "hoodie",
@@ -233,6 +255,7 @@ const clothes = [
    {
     id: 24,
     name: "HD-02",
+    category: "outerwear",
     image: "images/hd-02-black.jpeg",
     color: "black",
     type: "hoodie",
@@ -243,6 +266,7 @@ const clothes = [
   {
     id: 25,
     name: "HD-03",
+    category: "outerwear",
     image: "images/hd-03-Black.jpeg",
     color: "black",
     type: "hoodie",
@@ -253,6 +277,7 @@ const clothes = [
   {
     id: 26,
     name: "HD-10",
+    category: "outerwear",
     image: "images/hd-10-gray.jpeg",
     color: "gray",
     type: "hoodie",
@@ -263,6 +288,7 @@ const clothes = [
   {
     id: 27,
     name: "HD-10",
+    category: "outerwear",
     image: "images/HD-10-Black.jpeg",
     color: "black",
     type: "hoodie",
@@ -273,6 +299,7 @@ const clothes = [
   {
     id: 28,
     name: "HD-01",
+    category: "outerwear",
     image: "images/HD-01-Black.jpeg",
     color: "black",
     type: "hoodie",
@@ -283,6 +310,7 @@ const clothes = [
   {
     id: 29,
     name: "HD-04",
+    category: "outerwear",
     image: "images/HD-04-blue.jpeg",
     color: "blue",
     type: "hoodie",
@@ -293,6 +321,7 @@ const clothes = [
   {
     id: 30,
     name: "HD-04",
+    category: "outerwear",
     image: "images/HD-04-gray.jpeg",
     color: "gray",
     type: "hoodie",
@@ -303,6 +332,7 @@ const clothes = [
   {
     id: 31,
     name: "SH-01",
+    category: "bottoms",
     image: "images/sh-01-black.jpeg",
     color: "black",
     type: "short",
@@ -313,6 +343,7 @@ const clothes = [
   {
     id: 32,
     name: "SH-01",
+    category: "bottoms",
     image: "images/sh-01-gray.jpeg",
     color: "gray",
     type: "short",
@@ -323,6 +354,7 @@ const clothes = [
   {
     id: 33,
     name: "SH-06",
+    category: "bottoms",
     image: "images/sh-06-black.jpeg",
     color: "black",
     type: "short",
@@ -333,9 +365,10 @@ const clothes = [
   {
     id: 34,
     name: "WB-01",
+    category: "outerwear",
     image: "images/WB-01-black.jpeg",
     color: "black",
-    type: "jacket",
+    type: "windbreaker",
     price: 40,
     year: 2025,
     description: "HOODED ZIP FRONT WINDBREAKER, TWO SIDE POCKETS, ELASTIC CUFF AND HEM"
@@ -343,9 +376,10 @@ const clothes = [
   {
     id: 35,
     name: "WB-01",
+    category: "outerwear",
     image: "images/WB-01-gray.jpeg",
     color: "gray",
-    type: "jacket",
+    type: "windbreaker",
     price: 40,
     year: 2025,
     description: "HOODED ZIP FRONT WINDBREAKER, TWO SIDE POCKETS, ELASTIC CUFF AND HEM"
@@ -353,9 +387,10 @@ const clothes = [
   {
     id: 36,
     name: "WB-04",
+    category: "outerwear",
     image: "images/WB-04-brown.jpeg",
     color: "brown",
-    type: "jacket",
+    type: "windbreaker",
     price: 40,
     year: 2025,
     description: "WINDBREAKER, LIGHTWEIGHT RIPSTOP WINDBREAKER, UNLINED, ELASTIC CUFF AND BOTTOM"
@@ -363,9 +398,10 @@ const clothes = [
   {
     id: 37,
     name: "WB-04",
+    category: "outerwear",
     image: "images/WB-04-olive.jpeg",
     color: "green",
-    type: "jacket",
+    type: "windbreaker",
     price: 40,
     year: 2025,
     description: "WINDBREAKER, LIGHTWEIGHT RIPSTOP WINDBREAKER, UNLINED, ELASTIC CUFF AND BOTTOM"
@@ -373,6 +409,7 @@ const clothes = [
   {
     id: 38,
     name: "JC-01",
+    category: "outerwear",
     image: "images/JC-01-Black.jpeg",
     color: "black",
     type: "jacket",
@@ -383,6 +420,7 @@ const clothes = [
   {
     id: 39,
     name: "JC-04",
+    category: "outerwear",
     image: "images/JC-04-green.jpeg",
     color: "green",
     type: "jacket",
@@ -393,6 +431,7 @@ const clothes = [
   {
     id: 40,
     name: "JC-08",
+    category: "outerwear",
     image: "images/JC-08-White.jpeg",
     color: "white",
     type: "jacket",
@@ -403,6 +442,7 @@ const clothes = [
   {
     id: 41,
     name: "JC-09",
+    category: "outerwear",
     image: "images/JC-09-black.jpeg",
     color: "black",
     type: "jacket",
@@ -413,6 +453,7 @@ const clothes = [
   {
     id: 42,
     name: "JC-09",
+    category: "outerwear",
     image: "images/JC-09-cream.jpeg",
     color: "cream",
     type: "jacket",
@@ -423,6 +464,7 @@ const clothes = [
   {
     id: 43,
     name: "JC-10",
+    category: "outerwear",
     image: "images/JC-10-BLACK.jpeg",
     color: "black",
     type: "jacket",
@@ -433,6 +475,7 @@ const clothes = [
   {
     id: 44,
     name: "JC-11",
+    category: "outerwear",
     image: "images/JC-11-BLACK.jpeg",
     color: "black",
     type: "jacket",
@@ -443,6 +486,7 @@ const clothes = [
   {
     id: 45,
     name: "JC-03",
+    category: "outerwear",
     image: "images/jc-03-black.jpeg",
     color: "black",
     type: "jacket",
@@ -453,6 +497,7 @@ const clothes = [
   {
     id: 46,
     name: "JC-05",
+    category: "outerwear",
     image: "images/jc-05-black.jpeg",
     color: "black",
     type: "jacket",
@@ -463,6 +508,7 @@ const clothes = [
   {
     id: 47,
     name: "JC-07",
+    category: "outerwear",
     image: "images/jc-07-black.jpeg",
     color: "black",
     type: "jacket",
@@ -473,6 +519,7 @@ const clothes = [
   {
     id: 48,
     name: "JC-08",
+    category: "outerwear",
     image: "images/jc-08-black.jpeg",
     color: "black",
     type: "jacket",
@@ -483,6 +530,7 @@ const clothes = [
   {
     id: 49,
     name: "BP-01",
+    category: "accessories",
     image: "images/BP-01-black.jpeg",
     color: "black",
     type: "backpack",
@@ -493,6 +541,7 @@ const clothes = [
   {
     id: 50,
     name: "BP-02",
+    category: "accessories",
     image: "images/BP-02-black.jpeg",
     color: "black",
     type: "backpack",
@@ -503,6 +552,7 @@ const clothes = [
   {
     id: 51,
     name: "SG-01",
+    category: "accessories",
     image: "images/SG-01-black.jpeg",
     color: "black",
     type: "sunglass",
@@ -513,6 +563,7 @@ const clothes = [
   {
     id: 52,
     name: "SG-02",
+    category: "accessories",
     image: "images/sg-02-black.jpeg",
     color: "black",
     type: "sunglass",
@@ -523,6 +574,7 @@ const clothes = [
   {
     id: 53,
     name: "SG-03",
+    category: "accessories",
     image: "images/SG-03-BLACK.jpeg",
     color: "black",
     type: "sunglass",
@@ -533,6 +585,7 @@ const clothes = [
   {
     id: 54,
     name: "HT-01",
+    category: "accessories",
     image: "images/HT-01-Black.jpeg",
     color: "black",
     type: "hat",
@@ -543,6 +596,7 @@ const clothes = [
   {
     id: 55,
     name: "HT-04",
+    category: "accessories",
     image: "images/HT-04-black.jpeg",
     color: "black",
     type: "hat",
@@ -553,6 +607,7 @@ const clothes = [
   {
     id: 56,
     name: "HT-05",
+    category: "accessories",
     image: "images/ht-05-black.jpeg",
     color: "black",
     type: "hat",
@@ -563,9 +618,10 @@ const clothes = [
   {
     id: 57,
     name: "PD-01",
+    category: "shoes",
     image: "images/PD-01-black.jpeg",
     color: "black",
-    type: "shoe",
+    type: "sneaker",
     price: 20,
     year: 2025,
     description: "KNITTED SNEAKER"
@@ -573,9 +629,10 @@ const clothes = [
   {
     id: 58,
     name: "HB-01",
+    category: "shoes",
     image: "images/HB-01-black.jpeg",
     color: "black",
-    type: "shoe",
+    type: "boot",
     price: 100,
     year: 2025,
     description: "KNEE HIGH RUBBER WEDGE BOOT"
@@ -583,9 +640,10 @@ const clothes = [
   {
     id: 59,
     name: "HL-01",
+    category: "shoes",
     image: "images/HL-01-black.jpeg",
     color: "black",
-    type: "shoe",
+    type: "heel",
     price: 60,
     year: 2025,
     description: "SCULPTURAL POINTY TOE MULE WITH MICROFIBER FOOTBED, LIGHTWEIGHT STRUCTURE"
@@ -593,9 +651,10 @@ const clothes = [
   {
     id: 60,
     name: "HL-02",
+    category: "shoes",
     image: "images/HL-02-Black.jpeg",
     color: "black",
-    type: "shoe",
+    type: "heel",
     price: 60,
     year: 2025,
     description: "SCULPTURAL OPEN TOE WEDGE WITH RUBBER GRIP BOTTOM, LIGHTWEIGHT STRUCTURE"
@@ -603,9 +662,10 @@ const clothes = [
   {
     id: 61,
     name: "HL-03",
+    category: "shoes",
     image: "images/HL-03-Gray.jpeg",
     color: "gray",
-    type: "shoe",
+    type: "heel",
     price: 60,
     year: 2025,
     description: "TRANSULCENT POINTY TOE WEDGE MULE"
@@ -613,9 +673,10 @@ const clothes = [
   {
     id: 62,
     name: "SL-01",
+    category: "shoes",
     image: "images/SL-01-WHITE.jpeg",
     color: "white",
-    type: "shoe",
+    type: "slide",
     price: 20,
     year: 2025,
     description: "MOLDED SLIP ON SHOE"
@@ -623,9 +684,10 @@ const clothes = [
   {
     id: 63,
     name: "SL-01",
+    category: "shoes",
     image: "images/SL-01-GRAY.jpeg",
     color: "gray",
-    type: "shoe",
+    type: "slide",
     price: 20,
     year: 2025,
     description: "MOLDED SLIP ON SHOE"
@@ -633,9 +695,10 @@ const clothes = [
   {
     id: 64,
     name: "SL-01",
+    category: "shoes",
     image: "images/SL-01-black.jpeg",
     color: "black",
-    type: "shoe",
+    type: "slide",
     price: 20,
     year: 2025,
     description: "MOLDED SLIP ON SHOE, LIGHTWEIGHT"
@@ -643,9 +706,10 @@ const clothes = [
   {
     id: 65,
     name: "SL-02",
+    category: "shoes",
     image: "images/SL-02-black.jpeg",
     color: "black",
-    type: "shoe",
+    type: "slide",
     price: 40,
     year: 2025,
     description: "MOLDED SLIP ON SHOE WITH CUSHIONING, LIGHTWEIGHT"
@@ -653,9 +717,10 @@ const clothes = [
   {
     id: 66,
     name: "SL-03",
+    category: "shoes",
     image: "images/SL-03-BLACK.jpeg",
     color: "black",
-    type: "shoe",
+    type: "boot",
     price: 100,
     year: 2025,
     description: "-"
@@ -663,6 +728,7 @@ const clothes = [
   {
     id: 67,
     name: "UW-02",
+    category: "undergarments",
     image: "images/uw-01-black.jpeg",
     color: "black",
     type: "underwear",
@@ -673,6 +739,7 @@ const clothes = [
   {
     id: 68,
     name: "LG-01",
+    category: "bottoms",
     image: "images/LG-01-black.jpeg",
     color: "black",
     type: "leggings",
@@ -683,6 +750,7 @@ const clothes = [
   {
     id: 69,
     name: "LG-04",
+    category: "bottoms",
     image: "images/LG-04-black.jpeg",
     color: "black",
     type: "leggings",
@@ -693,6 +761,7 @@ const clothes = [
   {
     id: 70,
     name: "LG-13",
+    category: "bottoms",
     image: "images/LG-13-black.jpeg",
     color: "black",
     type: "leggings",
@@ -703,6 +772,7 @@ const clothes = [
   {
     id: 71,
     name: "LG-14",
+    category: "bottoms",
     image: "images/LG-14-black.jpeg",
     color: "black",
     type: "leggings",
@@ -713,6 +783,7 @@ const clothes = [
   {
     id: 72,
     name: "PT-03",
+    category: "bottoms",
     image: "images/PT-03-black.jpeg",
     color: "black",
     type: "pants",
@@ -723,6 +794,7 @@ const clothes = [
   {
     id: 73,
     name: "PT-04",
+    category: "bottoms",
     image: "images/PT-04-Black.jpeg",
     color: "black",
     type: "pants",
@@ -733,6 +805,7 @@ const clothes = [
   {
     id: 74,
     name: "PT-05",
+    category: "bottoms",
     image: "images/PT-05-black.jpeg",
     color: "black",
     type: "pants",
@@ -743,6 +816,7 @@ const clothes = [
   {
     id: 75,
     name: "PT-10",
+    category: "bottoms",
     image: "images/PT-10-black.jpeg",
     color: "black",
     type: "pants",
@@ -751,6 +825,7 @@ const clothes = [
     description: "COATED SCUBA LOW RISE TROUSER PANT"
   }
 ];
+
 
 
 
