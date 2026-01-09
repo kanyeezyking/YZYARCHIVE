@@ -988,8 +988,20 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "LEATHER BELT, VELCRO SIZE ADJUSTMENT TAB"
+  },
+  {
+    id: 91,
+    name: "WH-01",
+    category: "accessories",
+    image: "images/WH-01-white.jpeg",
+    color: "white",
+    type: "hat",
+    price: 20,
+    year: 2025,
+    description: "MILITARY CADET HAT, ADJUSTABLE TAB AT BACK"
   }
 ];
+
 
 
 
