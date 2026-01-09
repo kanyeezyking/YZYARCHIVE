@@ -177,7 +177,8 @@ const clothes = [
     color: "black",
     type: "tshirt",
     price: 20,
-    year: 2025
+    year: 2025,
+    description: "COTTON SPANDEX FITTED BABY TEE"
   },
   {
     id: 19,
@@ -186,7 +187,8 @@ const clothes = [
     color: "black",
     type: "tshirt",
     price: 40,
-    year: 2025
+    year: 2025,
+    description: "DOUBLE LAYER COMBO, DROP SHOULDER T-SHIRT"
   },
   {
     id: 20,
@@ -195,7 +197,8 @@ const clothes = [
     color: "white",
     type: "tshirt",
     price: 20,
-    year: 2025
+    year: 2025,
+    description: "BASE T-SHIRT, SET IN SLEVE"
   },
    {
     id: 21,
@@ -213,7 +216,8 @@ const clothes = [
     color: "gray",
     type: "hoodie",
     price: 40,
-    year: 2025
+    year: 2025,
+    description: "CLASSIC PULLOVER HOODIE, DRAWCORD AT HOOD, POCKET AT FRONT"
   },
    {
     id: 23,
@@ -222,7 +226,8 @@ const clothes = [
     color: "white",
     type: "hoodie",
     price: 40,
-    year: 2025
+    year: 2025,
+    description: "CLASSIC PULLOVER HOODIE, DRAWCORD AT HOOD, POCKET AT FRONT"
   },
    {
     id: 24,
@@ -231,7 +236,8 @@ const clothes = [
     color: "black",
     type: "hoodie",
     price: 40,
-    year: 2025
+    year: 2025,
+    description: "POLAR FLEECE ZIP HOODIE, POCKET AT FRONT"
   },
   {
     id: 25,
@@ -240,7 +246,8 @@ const clothes = [
     color: "black",
     type: "hoodie",
     price: 40,
-    year: 2025
+    year: 2025,
+    description: "ZIP HOODIE, SEAMLESS DROP SHOULDER, ELASTIC CUFF AND HEM, POCKET AT FRONT
   },
   {
     id: 26,
@@ -249,7 +256,8 @@ const clothes = [
     color: "gray",
     type: "hoodie",
     price: 40,
-    year: 2025
+    year: 2025,
+    description: "ZIP FRONT SZNX HOODIE, SEAMLESS DROP SHOULDER"
   },
   {
     id: 27,
@@ -258,7 +266,8 @@ const clothes = [
     color: "black",
     type: "hoodie",
     price: 40,
-    year: 2025
+    year: 2025,
+    description: "ZIP FRONT SZNX HOODIE, SEAMLESS DROP SHOULDER"
   },
   {
     id: 28,
@@ -267,7 +276,8 @@ const clothes = [
     color: "black",
     type: "hoodie",
     price: 40,
-    year: 2025
+    year: 2025,
+    description: "CLASSIC PULLOVER HOODIE, DRAWCORD AT HOOD, POCKET AT FRONT"
   },
   {
     id: 29,
@@ -276,7 +286,8 @@ const clothes = [
     color: "blue",
     type: "hoodie",
     price: 40,
-    year: 2025
+    year: 2025,
+    description: "ZIP HOODIE, 16 OZ BRUSHED FLEECE, PLASTIC ZIPPER, RIB CUFF AND WAIST"
   },
   {
     id: 30,
@@ -285,7 +296,8 @@ const clothes = [
     color: "gray",
     type: "hoodie",
     price: 40,
-    year: 2025
+    year: 2025,
+    description: "ZIP HOODIE, 16 OZ BRUSHED FLEECE, PLASTIC ZIPPER, RIB CUFF AND WAIST"
   },
   {
     id: 31,
@@ -294,7 +306,8 @@ const clothes = [
     color: "black",
     type: "short",
     price: 20,
-    year: 2025
+    year: 2025,
+    description: "CLASSIC NYLON SHORT, ELASTIC WAIST, TWO SIDE POCKETS"
   },
   {
     id: 32,
@@ -303,7 +316,8 @@ const clothes = [
     color: "gray",
     type: "short",
     price: 20,
-    year: 2025
+    year: 2025,
+    description: "CLASSIC NYLON SHORT, ELASTIC WAIST, TWO SIDE POCKETS"
   },
   {
     id: 33,
@@ -312,7 +326,8 @@ const clothes = [
     color: "black",
     type: "short",
     price: 20,
-    year: 2025
+    year: 2025,
+    description: "COTTON SPANDEX BOY SHORTS"
   },
   {
     id: 34,
@@ -321,7 +336,8 @@ const clothes = [
     color: "black",
     type: "jacket",
     price: 40,
-    year: 2025
+    year: 2025,
+    description: "HOODED ZIP FRONT WINDBREAKER, TWO SIDE POCKETS, ELASTIC CUFF AND HEM"
   },
   {
     id: 35,
@@ -330,7 +346,8 @@ const clothes = [
     color: "gray",
     type: "jacket",
     price: 40,
-    year: 2025
+    year: 2025,
+    description: "HOODED ZIP FRONT WINDBREAKER, TWO SIDE POCKETS, ELASTIC CUFF AND HEM"
   },
   {
     id: 36,
@@ -339,7 +356,8 @@ const clothes = [
     color: "brown",
     type: "jacket",
     price: 40,
-    year: 2025
+    year: 2025,
+    description: "WINDBREAKER, LIGHTWEIGHT RIPSTOP WINDBREAKER, UNLINED, ELASTIC CUFF AND BOTTOM"
   },
   {
     id: 37,
@@ -348,7 +366,8 @@ const clothes = [
     color: "green",
     type: "jacket",
     price: 40,
-    year: 2025
+    year: 2025,
+    description: "WINDBREAKER, LIGHTWEIGHT RIPSTOP WINDBREAKER, UNLINED, ELASTIC CUFF AND BOTTOM"
   },
   {
     id: 38,
@@ -357,7 +376,8 @@ const clothes = [
     color: "black",
     type: "jacket",
     price: 60,
-    year: 2025
+    year: 2025,
+    description: "FAUX LEATHER HOODED JACKET, ZIP FRONT WITH COVERED PLACKET, ELASTIC CUFF AND HEM, TWO SIDE POCKETS"
   },
   {
     id: 39,
@@ -366,7 +386,8 @@ const clothes = [
     color: "green",
     type: "jacket",
     price: 80,
-    year: 2025
+    year: 2025,
+    description: "COTTON M65 JACKET, COTTON LINED, HOOD INSIDE COLLAR"
   },
   {
     id: 40,
@@ -375,7 +396,8 @@ const clothes = [
     color: "white",
     type: "jacket",
     price: 80,
-    year: 2025
+    year: 2025,
+    description: "BOMBER WITH FLEECE HOOD"
   },
   {
     id: 41,
@@ -384,7 +406,8 @@ const clothes = [
     color: "black",
     type: "jacket",
     price: 60,
-    year: 2025
+    year: 2025,
+    description: "WORK JACKET, COTTON CANVAS JACKET, VINTAGE WASH PROCESSING"
   },
   {
     id: 42,
@@ -393,7 +416,8 @@ const clothes = [
     color: "cream",
     type: "jacket",
     price: 60,
-    year: 2025
+    year: 2025,
+    description: "WORK JACKET, COTTON CANVAS JACKET, VINTAGE WASH PROCESSING"
   },
   {
     id: 43,
@@ -402,7 +426,8 @@ const clothes = [
     color: "black",
     type: "jacket",
     price: 60,
-    year: 2025
+    year: 2025,
+    description: "STAND COLLAR JACKET, ZIP FRONT CLOSURE, LINED WITH FLEECE, LINED COLLAR"
   },
   {
     id: 44,
@@ -411,7 +436,8 @@ const clothes = [
     color: "black",
     type: "jacket",
     price: 60,
-    year: 2025
+    year: 2025,
+    description: "COTTON CARGO JACKET, LINED WITH HOOD INSIDE COLLAR"
   },
   {
     id: 45,
@@ -420,7 +446,8 @@ const clothes = [
     color: "black",
     type: "jacket",
     price: 40,
-    year: 2025
+    year: 2025,
+    description: "ZIP FRONT POLAR FLEECE HOODIE, TWO SIDE POCKETS, ELASTIC CUFF AND HEM"
   },
   {
     id: 46,
@@ -429,7 +456,8 @@ const clothes = [
     color: "black",
     type: "jacket",
     price: 60,
-    year: 2025
+    year: 2025,
+    description: "STAND COLLAR FAUX LEATHER JACKET, TWO SIDE POCKETS, ELASTIC BANDED CUFF AND WAIST"
   },
   {
     id: 47,
@@ -438,7 +466,8 @@ const clothes = [
     color: "black",
     type: "jacket",
     price: 60,
-    year: 2025
+    year: 2025,
+    description: "LEATHER BOMBER, FAUX LEATHER JACKET WITH ELASTIC CUFF AND BOTTOM"
   },
   {
     id: 48,
@@ -447,7 +476,8 @@ const clothes = [
     color: "black",
     type: "jacket",
     price: 80,
-    year: 2025
+    year: 2025,
+    description: "BOMBER WITH FLEECE HOOD"
   },
   {
     id: 49,
@@ -456,7 +486,8 @@ const clothes = [
     color: "black",
     type: "backpack",
     price: 40,
-    year: 2025
+    year: 2025,
+    description: "WATER REPELLENT BACKPACK, CLIP ROLL TOP CLOSURE"
   },
   {
     id: 50,
@@ -465,7 +496,8 @@ const clothes = [
     color: "black",
     type: "backpack",
     price: 40,
-    year: 2025
+    year: 2025,
+    description: "BACKPACK, DOUBLE ZIP CLOSURE, ADJUSTABLE PADDED STRAPS, INNER CONCEALED PADDED LAPTOP SLEEVE"
   },
   {
     id: 51,
@@ -474,7 +506,8 @@ const clothes = [
     color: "black",
     type: "sunglass",
     price: 20,
-    year: 2025
+    year: 2025,
+    description: "ONE PIECE FRAMELESS BRACK WRAP SUNGLASSES, ADJUSTABLE CORD"
   },
   {
     id: 52,
@@ -483,7 +516,8 @@ const clothes = [
     color: "black",
     type: "sunglass",
     price: 20,
-    year: 2025
+    year: 2025,
+    description: "SAFETY SUNGLASSES, TRANSPARENT, BLACK REMOVABLE CORD"
   },
   {
     id: 53,
@@ -492,7 +526,8 @@ const clothes = [
     color: "black",
     type: "sunglass",
     price: 20,
-    year: 2025
+    year: 2025,
+    description: "BLACK ACTATE FRAME SUNGLASSES, DARK GREY LENSES"
   },
   {
     id: 54,
@@ -501,7 +536,8 @@ const clothes = [
     color: "black",
     type: "hat",
     price: 20,
-    year: 2025
+    year: 2025,
+    description: "5 PANEL CAP, VELCRO ADJUSTABLE TAB AT BACK"
   },
   {
     id: 55,
@@ -510,7 +546,8 @@ const clothes = [
     color: "black",
     type: "hat",
     price: 20,
-    year: 2025
+    year: 2025,
+    description: "BEANIE"
   },
   {
     id: 56,
@@ -519,7 +556,8 @@ const clothes = [
     color: "black",
     type: "hat",
     price: 20,
-    year: 2025
+    year: 2025,
+    description: "RIB SKI MASK"
   },
   {
     id: 57,
@@ -528,7 +566,8 @@ const clothes = [
     color: "black",
     type: "shoe",
     price: 20,
-    year: 2025
+    year: 2025,
+    description: "KNITTED SNEAKER"
   },
   {
     id: 58,
@@ -537,7 +576,8 @@ const clothes = [
     color: "black",
     type: "shoe",
     price: 100,
-    year: 2025
+    year: 2025,
+    description: "KNEE HIGH RUBBER WEDGE BOOT"
   },
   {
     id: 59,
@@ -546,7 +586,8 @@ const clothes = [
     color: "black",
     type: "shoe",
     price: 60,
-    year: 2025
+    year: 2025,
+    description: "SCULPTURAL POINTY TOE MULE WITH MICROFIBER FOOTBED, LIGHTWEIGHT STRUCTURE"
   },
   {
     id: 60,
@@ -555,7 +596,8 @@ const clothes = [
     color: "black",
     type: "shoe",
     price: 60,
-    year: 2025
+    year: 2025,
+    description: "SCULPTURAL OPEN TOE WEDGE WITH RUBBER GRIP BOTTOM, LIGHTWEIGHT STRUCTURE"
   },
   {
     id: 61,
@@ -564,7 +606,8 @@ const clothes = [
     color: "gray",
     type: "shoe",
     price: 60,
-    year: 2025
+    year: 2025,
+    description: "TRANSULCENT POINTY TOE WEDGE MULE"
   },
   {
     id: 62,
@@ -573,7 +616,8 @@ const clothes = [
     color: "white",
     type: "shoe",
     price: 20,
-    year: 2025
+    year: 2025,
+    description: "MOLDED SLIP ON SHOE"
   },
   {
     id: 63,
@@ -582,7 +626,8 @@ const clothes = [
     color: "gray",
     type: "shoe",
     price: 20,
-    year: 2025
+    year: 2025,
+    description: "MOLDED SLIP ON SHOE"
   },
   {
     id: 64,
@@ -591,7 +636,8 @@ const clothes = [
     color: "black",
     type: "shoe",
     price: 20,
-    year: 2025
+    year: 2025,
+    description: "MOLDED SLIP ON SHOE, LIGHTWEIGHT"
   },
   {
     id: 65,
@@ -600,7 +646,8 @@ const clothes = [
     color: "black",
     type: "shoe",
     price: 40,
-    year: 2025
+    year: 2025,
+    description: "MOLDED SLIP ON SHOE WITH CUSHIONING, LIGHTWEIGHT"
   },
   {
     id: 66,
@@ -609,7 +656,8 @@ const clothes = [
     color: "black",
     type: "shoe",
     price: 100,
-    year: 2025
+    year: 2025,
+    description: "-"
   },
   {
     id: 67,
@@ -618,7 +666,8 @@ const clothes = [
     color: "black",
     type: "underwear",
     price: 20,
-    year: 2025
+    year: 2025,
+    description: "COTTON SPANDEX THONG TWO PACK"
   },
   {
     id: 68,
@@ -627,7 +676,8 @@ const clothes = [
     color: "black",
     type: "leggings",
     price: 40,
-    year: 2025
+    year: 2025,
+    description: "SHINY TRICOT FOOTED TIGHT"
   },
   {
     id: 69,
@@ -636,7 +686,8 @@ const clothes = [
     color: "black",
     type: "leggings",
     price: 40,
-    year: 2025
+    year: 2025,
+    description: "VELVET COTTON YOGA PANT"
   },
   {
     id: 70,
@@ -645,7 +696,8 @@ const clothes = [
     color: "black",
     type: "leggings",
     price: 40,
-    year: 2025
+    year: 2025,
+    description: "SHINY TRICOT LEGGING"
   },
   {
     id: 71,
@@ -654,34 +706,38 @@ const clothes = [
     color: "black",
     type: "leggings",
     price: 40,
-    year: 2025
+    year: 2025,
+    description: "COATED SCUBA CAPRI LEGGING"
   },
   {
     id: 72,
-    name: "PT-10",
+    name: "PT-03",
     image: "images/PT-03-black.jpeg",
     color: "black",
     type: "pants",
     price: 40,
-    year: 2025
+    year: 2025,
+    description: "BAGGY STRAIGHT LEG NYLON PANT, ELASTIC BANDED WAIST, TWO POCKETS AT SIDE"
   },
   {
     id: 73,
-    name: "PT-10",
+    name: "PT-04",
     image: "images/PT-04-Black.jpeg",
     color: "black",
     type: "pants",
     price: 40,
-    year: 2025
+    year: 2025,
+    description: "STRAIGHT LEG 5 POCKET PANT, VELCRO FLY AND CLOSURE, COATED NYLON"
   },
   {
     id: 74,
-    name: "PT-10",
+    name: "PT-05",
     image: "images/PT-05-black.jpeg",
     color: "black",
     type: "pants",
     price: 40,
-    year: 2025
+    year: 2025,
+    description: "COATED MENS BAGGY 5 POCKET PANT"
   },
   {
     id: 75,
@@ -690,9 +746,11 @@ const clothes = [
     color: "black",
     type: "pants",
     price: 40,
-    year: 2025
+    year: 2025,
+    description: "COATED SCUBA LOW RISE TROUSER PANT"
   }
 ];
+
 
 
 
