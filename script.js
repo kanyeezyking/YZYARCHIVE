@@ -5,8 +5,8 @@
 const itemsContainer = document.getElementById("items");
 
 const categoryFilter = document.getElementById("categoryFilter");
-const colorFilter = document.getElementById("colorFilter");
 const typeFilter = document.getElementById("typeFilter");
+const colorFilter = document.getElementById("colorFilter");
 const yearFilter = document.getElementById("yearFilter");
 const priceSort = document.getElementById("priceSort");
 
@@ -24,9 +24,9 @@ const closeModal = document.getElementById("closeModal");
 ===================== */
 
 const typeOptionsByCategory = {
-  shoes: ["slide", "boot", "heel", "sneaker"],
+  shoes: ["sneaker", "boot", "heel", "slide"],
   tops: ["tshirt", "longsleeve"],
-  bottoms: ["pants", "sweatpant", "short", "leggings"],
+  bottoms: ["short", "leggings", "pants", "sweatpant"],
   outerwear: ["jacket", "hoodie", "windbreaker"],
   accessories: ["hat", "sunglass", "backpack"],
   undergarments: ["sock", "underwear"]
@@ -56,26 +56,33 @@ function renderItems(items) {
     `;
 
     div.addEventListener("click", () => openModal(item));
-
     itemsContainer.appendChild(div);
   });
 }
 
 /* =====================
-   UPDATE TYPE OPTIONS
+   UPDATE TYPE DROPDOWN
 ===================== */
 
-function updateTypeOptions() {
-  typeFilter.innerHTML = '<option value="">All Types</option>';
-
+function updateTypeDropdown() {
   const category = categoryFilter.value;
+
+  typeFilter.innerHTML = "";
+  typeFilter.style.display = "none";
+
   if (!category) return;
+
+  typeFilter.style.display = "block";
+
+  const defaultOption = document.createElement("option");
+  defaultOption.value = "";
+  defaultOption.textContent = "All Types";
+  typeFilter.appendChild(defaultOption);
 
   typeOptionsByCategory[category].forEach(type => {
     const option = document.createElement("option");
     option.value = type;
-    option.textContent =
-      type.charAt(0).toUpperCase() + type.slice(1);
+    option.textContent = type.charAt(0).toUpperCase() + type.slice(1);
     typeFilter.appendChild(option);
   });
 }
@@ -93,15 +100,15 @@ function applyFilters() {
     );
   }
 
-  if (colorFilter.value) {
-    filtered = filtered.filter(
-      item => item.color === colorFilter.value
-    );
-  }
-
   if (typeFilter.value) {
     filtered = filtered.filter(
       item => item.type === typeFilter.value
+    );
+  }
+
+  if (colorFilter.value) {
+    filtered = filtered.filter(
+      item => item.color === colorFilter.value
     );
   }
 
@@ -153,11 +160,13 @@ modal.addEventListener("click", e => {
 
 categoryFilter.addEventListener("change", () => {
   typeFilter.value = "";
-  updateTypeOptions();
+  updateTypeDropdown();
   applyFilters();
 });
 
-[colorFilter, typeFilter, yearFilter, priceSort].forEach(filter =>
+typeFilter.addEventListener("change", applyFilters);
+
+[colorFilter, yearFilter, priceSort].forEach(filter =>
   filter.addEventListener("change", applyFilters)
 );
 
@@ -166,5 +175,3 @@ categoryFilter.addEventListener("change", () => {
 ===================== */
 
 renderItems(clothes);
-
-
