@@ -24,10 +24,10 @@ const closeModal = document.getElementById("closeModal");
 ===================== */
 
 const typeOptionsByCategory = {
-  shoes: ["shoe"],
-  tops: ["tshirt", "hoodie"],
+  shoes: ["slide, boot, heel, sneaker"],
+  tops: ["tshirt", "longsleeve"],
   bottoms: ["pants", "sweatpant", "short", "leggings"],
-  outerwear: ["jacket"],
+  outerwear: ["jacket, hoodie, windbreaker"],
   accessories: ["hat", "sunglass", "backpack"],
   undergarments: ["sock", "underwear"]
 };
@@ -166,3 +166,4 @@ categoryFilter.addEventListener("change", () => {
 ===================== */
 
 renderItems(clothes);
+
