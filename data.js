@@ -834,6 +834,40 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "COTTON SPANDEX BRALETTE"
+  },
+  {
+    id: 76,
+    name: "BD-03",
+    category: "tops", "bottoms",
+    image: "images/BD-03-Black.jpeg",
+    color: "black",
+    type: "bodysuit",
+    price: 20,
+    year: 2025,
+    description: "SHINY TRICOT ADJUSTABLE STRAP CAMI BODYSUIT"
+  },
+  {
+    id: 76,
+    name: "BD-04",
+    category: "tops", "bottoms",
+    image: "images/BR-01-black.jpeg",
+    color: "black",
+    type: "bodysuit",
+    price: 40,
+    year: 2025,
+    description: "SHINY TRICOT FOOTED ADJUSTABLE STRAP JUMPSUIT"
+  },
+  {
+    id: 76,
+    name: "BD-10",
+    category: "tops", "bottoms",
+    image: "images/BR-01-black.jpeg",
+    color: "black",
+    type: "bodysuit",
+    price: 40,
+    year: 2025,
+    description: "SHORT SLEEVE COTTON SPANDEX ROMPER"
   }
 ];
+
 
