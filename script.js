@@ -1,11 +1,16 @@
+/* =====================
+   DOM ELEMENTS
+===================== */
+
 const itemsContainer = document.getElementById("items");
 
+const categoryFilter = document.getElementById("categoryFilter");
 const colorFilter = document.getElementById("colorFilter");
 const typeFilter = document.getElementById("typeFilter");
 const yearFilter = document.getElementById("yearFilter");
 const priceSort = document.getElementById("priceSort");
 
-/* MODAL ELEMENTS */
+/* MODAL */
 const modal = document.getElementById("itemModal");
 const modalImage = document.getElementById("modalImage");
 const modalName = document.getElementById("modalName");
@@ -14,7 +19,23 @@ const modalYear = document.getElementById("modalYear");
 const modalDescription = document.getElementById("modalDescription");
 const closeModal = document.getElementById("closeModal");
 
-/* RENDER ITEMS */
+/* =====================
+   CATEGORY → TYPE MAP
+===================== */
+
+const typeOptionsByCategory = {
+  shoes: ["shoe"],
+  tops: ["tshirt", "hoodie"],
+  bottoms: ["pants", "sweatpant", "short", "leggings"],
+  outerwear: ["jacket"],
+  accessories: ["hat", "sunglass", "backpack"],
+  undergarments: ["sock", "underwear"]
+};
+
+/* =====================
+   RENDER ITEMS
+===================== */
+
 function renderItems(items) {
   itemsContainer.innerHTML = "";
 
@@ -40,20 +61,54 @@ function renderItems(items) {
   });
 }
 
-/* FILTER LOGIC */
+/* =====================
+   UPDATE TYPE OPTIONS
+===================== */
+
+function updateTypeOptions() {
+  typeFilter.innerHTML = '<option value="">All Types</option>';
+
+  const category = categoryFilter.value;
+  if (!category) return;
+
+  typeOptionsByCategory[category].forEach(type => {
+    const option = document.createElement("option");
+    option.value = type;
+    option.textContent =
+      type.charAt(0).toUpperCase() + type.slice(1);
+    typeFilter.appendChild(option);
+  });
+}
+
+/* =====================
+   APPLY FILTERS
+===================== */
+
 function applyFilters() {
   let filtered = [...clothes];
 
+  if (categoryFilter.value) {
+    filtered = filtered.filter(
+      item => item.category === categoryFilter.value
+    );
+  }
+
   if (colorFilter.value) {
-    filtered = filtered.filter(item => item.color === colorFilter.value);
+    filtered = filtered.filter(
+      item => item.color === colorFilter.value
+    );
   }
 
   if (typeFilter.value) {
-    filtered = filtered.filter(item => item.type === typeFilter.value);
+    filtered = filtered.filter(
+      item => item.type === typeFilter.value
+    );
   }
 
   if (yearFilter.value) {
-    filtered = filtered.filter(item => item.year == yearFilter.value);
+    filtered = filtered.filter(
+      item => item.year == yearFilter.value
+    );
   }
 
   if (priceSort.value === "low") {
@@ -67,7 +122,10 @@ function applyFilters() {
   renderItems(filtered);
 }
 
-/* MODAL FUNCTIONS */
+/* =====================
+   MODAL LOGIC
+===================== */
+
 function openModal(item) {
   modalImage.src = item.image;
   modalName.textContent = item.name;
@@ -83,17 +141,28 @@ function closeItemModal() {
   modal.style.display = "none";
 }
 
-/* MODAL EVENTS */
 closeModal.addEventListener("click", closeItemModal);
 
 modal.addEventListener("click", e => {
   if (e.target === modal) closeItemModal();
 });
 
-/* FILTER EVENTS */
+/* =====================
+   EVENT LISTENERS
+===================== */
+
+categoryFilter.addEventListener("change", () => {
+  typeFilter.value = "";
+  updateTypeOptions();
+  applyFilters();
+});
+
 [colorFilter, typeFilter, yearFilter, priceSort].forEach(filter =>
   filter.addEventListener("change", applyFilters)
 );
 
-/* INITIAL LOAD */
+/* =====================
+   INITIAL LOAD
+===================== */
+
 renderItems(clothes);
