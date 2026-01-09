@@ -7,7 +7,7 @@ const clothes = [
     type: "sock",
     price: 20,
     year: 2025,
-    description: "MIDWEIGHT SOCK"
+    description: "3 PACK MIDWEIGHT SOCK"
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const clothes = [
     type: "sock",
     price: 20,
     year: 2025,
-    description: "MIDWEIGHT SOCK" 
+    description: "3 PACK MIDWEIGHT SOCK" 
     
   },
   {
@@ -28,7 +28,7 @@ const clothes = [
     type: "sock",
     price: 20,
     year: 2025,
-    description: "MIDWEIGHT SOCK"
+    description: "3 PACK MIDWEIGHT SOCK"
   },
   {
     id: 4,
@@ -693,6 +693,7 @@ const clothes = [
     year: 2025
   }
 ];
+
 
 
 
