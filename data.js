@@ -272,7 +272,7 @@ const clothes = [
     type: "hoodie",
     price: 40,
     year: 2025,
-    description: "ZIP HOODIE, SEAMLESS DROP SHOULDER, ELASTIC CUFF AND HEM, POCKET AT FRONT
+    description: "ZIP HOODIE, SEAMLESS DROP SHOULDER, ELASTIC CUFF AND HEM, POCKET AT FRONT"
   },
   {
     id: 26,
@@ -825,38 +825,3 @@ const clothes = [
     description: "COATED SCUBA LOW RISE TROUSER PANT"
   }
 ];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
