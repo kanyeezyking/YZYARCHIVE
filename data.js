@@ -900,8 +900,86 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "3 PACK BASE TANK"
+  },
+  {
+    id: 83,
+    name: "YS-01",
+    category: "shoes",
+    image: "images/Chocolate.JPEG",
+    color: "brown",
+    type: "slide",
+    price: 20,
+    year: 2025,
+    description: "YEEZY SLIDE"
+  },
+  {
+    id: 84,
+    name: "YS-01",
+    category: "shoes",
+    image: "images/black.jpeg",
+    color: "black",
+    type: "slide",
+    price: 20,
+    year: 2025,
+    description: "YEEZY SLIDE"
+  },
+  {
+    id: 85,
+    name: "YS-01",
+    category: "shoes",
+    image: "images/blue.jpeg",
+    color: "blue",
+    type: "slide",
+    price: 20,
+    year: 2025,
+    description: "YEEZY SLIDE"
+  },
+  {
+    id: 86,
+    name: "YS-01",
+    category: "shoes",
+    image: "images/chestnut.jpeg",
+    color: "brown",
+    type: "slide",
+    price: 20,
+    year: 2025,
+    description: "YEEZY SLIDE"
+  },
+  {
+    id: 87,
+    name: "YS-01",
+    category: "shoes",
+    image: "images/cream.jpeg",
+    color: "cream",
+    type: "slide",
+    price: 20,
+    year: 2025,
+    description: "YEEZY SLIDE"
+  },
+  {
+    id: 88,
+    name: "YS-01",
+    category: "shoes",
+    image: "images/gray.jpeg",
+    color: "gray",
+    type: "slide",
+    price: 20,
+    year: 2025,
+    description: "YEEZY SLIDE"
+  },
+  {
+    id: 89,
+    name: "YS-01",
+    category: "shoes",
+    image: "images/white.jpeg",
+    color: "white",
+    type: "slide",
+    price: 20,
+    year: 2025,
+    description: "YEEZY SLIDE"
   }
 ];
+
 
 
 
