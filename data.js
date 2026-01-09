@@ -170,7 +170,7 @@ const clothes = [
     name: "TS-03",
     category: "tops",
     image: "images/ts-03-cream.jpeg",
-    color: "cream",
+    color: "white",
     type: "tshirt",
     price: 40,
     year: 2025,
@@ -181,7 +181,7 @@ const clothes = [
     name: "TS-03",
     category: "tops",
     image: "images/ts-03-olive.jpeg",
-    color: "olive",
+    color: "green",
     type: "tshirt",
     price: 40,
     year: 2025,
@@ -455,7 +455,7 @@ const clothes = [
     name: "JC-09",
     category: "outerwear",
     image: "images/JC-09-cream.jpeg",
-    color: "cream",
+    color: "white",
     type: "jacket",
     price: 60,
     year: 2025,
@@ -950,7 +950,7 @@ const clothes = [
     name: "YS-01",
     category: "shoes",
     image: "images/cream.jpeg",
-    color: "cream",
+    color: "white",
     type: "slide",
     price: 20,
     year: 2025,
@@ -979,6 +979,7 @@ const clothes = [
     description: "YEEZY SLIDE"
   }
 ];
+
 
 
 
