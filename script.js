@@ -52,7 +52,12 @@ function renderItems(items) {
 
     div.innerHTML = `
       <img src="${item.image}">
-      <h4>${item.name}</h4>
+      <h4>
+  <a href="${item.link}" target="_blank" class="item-link">
+    ${item.name}
+  </a>
+</h4>
+
       <p>$${item.price}</p>
       <p>Year ${item.year}</p>
     `;
@@ -177,6 +182,7 @@ typeFilter.addEventListener("change", applyFilters);
 ===================== */
 
 renderItems(clothes);
+
 
 
 
