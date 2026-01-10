@@ -1075,9 +1075,21 @@ const clothes = [
     type: "underwear",
     price: 40,
     year: 2025,
-    description: "FLEECE TRACK JACKET"
-  }
+    description: "3 PACK MENS BOXER BRIEFS, ELASTIC BANDED WAIST"
+  },
+  {
+    id: 99,
+    name: "GL-01",
+    category: "accessories",
+    image: "images/GL-01.jpeg",
+    color: "black",
+    type: "gloves",
+    price: 20,
+    year: 2025,
+    description: "UTILITY GLOVES"
+  },
 ];
+
 
 
 
