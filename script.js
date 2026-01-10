@@ -28,7 +28,7 @@ const typeOptionsByCategory = {
   tops: ["tshirt", "longsleeve", "bodysuit", "tubetop", "tanktop"],
   bottoms: ["short", "leggings", "pants", "sweatpant"],
   outerwear: ["jacket", "hoodie", "windbreaker", "parka"],
-  accessories: ["hat", "sunglass", "backpack", "belt"],
+  accessories: ["hat", "sunglass", "backpack", "belt", "gloves"],
   undergarments: ["sock", "underwear", "bra"]
 };
 
@@ -175,6 +175,7 @@ typeFilter.addEventListener("change", applyFilters);
 ===================== */
 
 renderItems(clothes);
+
 
 
 
