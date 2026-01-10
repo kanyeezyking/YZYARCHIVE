@@ -1032,7 +1032,8 @@ const clothes = [
     price: 100,
     year: 2025,
     description: "FAUX FUR HOODED PARKA, PUFF INSULATION PADDING, TWO SIDE POCKETS"
-  },{
+  },
+  {
     id: 95,
     name: "PK-01",
     category: "outerwear",
@@ -1042,8 +1043,31 @@ const clothes = [
     price: 100,
     year: 2025,
     description: "FAUX FUR HOODED PARKA, PUFF INSULATION PADDING, TWO SIDE POCKETS"
+  },
+  {
+    id: 96,
+    name: "WJ-01",
+    category: "outerwear",
+    image: "images/WJ-01-brown.jpeg",
+    color: "brown",
+    type: "jacket",
+    price: 80,
+    year: 2025,
+    description: "WOMENS MOCK NECK FAUX FUR JACKET"
+  },
+  {
+    id: 97,
+    name: "WJ-02",
+    category: "outerwear",
+    image: "images/WJ-02-black.jpeg",
+    color: "black",
+    type: "jacket",
+    price: 40,
+    year: 2025,
+    description: "FLEECE TRACK JACKET"
   }
 ];
+
 
 
 
