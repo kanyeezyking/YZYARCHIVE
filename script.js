@@ -62,7 +62,11 @@ function renderItems(items) {
       <p>Year ${item.year}</p>
     `;
 
-    div.addEventListener("click", () => openModal(item));
+   div.addEventListener("click", e => {
+  if (e.target.tagName === "A") return;
+  openModal(item);
+});
+
     itemsContainer.appendChild(div);
   });
 }
@@ -182,6 +186,7 @@ typeFilter.addEventListener("change", applyFilters);
 ===================== */
 
 renderItems(clothes);
+
 
 
 
