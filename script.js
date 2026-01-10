@@ -30,7 +30,7 @@ const typeOptionsByCategory = {
   outerwear: ["jacket", "hoodie", "windbreaker", "parka", "bomber", "raincoat", "coat"],
   accessories: ["hat", "sunglass", "backpack", "belt", "gloves", "bag", "grills"],
   undergarments: ["sock", "underwear", "bra"],
-  music: ["vinyl", "cd", "cassette"],
+  music: ["vinyl", "cd", "cassette", "digital"],
   bundles: ["box"]
 };
 
@@ -177,6 +177,7 @@ typeFilter.addEventListener("change", applyFilters);
 ===================== */
 
 renderItems(clothes);
+
 
 
 
