@@ -1356,7 +1356,7 @@ const clothes = [
   },
   {
     id: 125,
-    name: "BULLY TS-O7 BOX",
+    name: "BULLY TS-07 BOX",
     category: "bundles",
     image: "images/ts-07-box-black.png",
     color: "black",
@@ -1366,7 +1366,7 @@ const clothes = [
   },
   {
     id: 126,
-    name: "BULLY TS-O7 BOX",
+    name: "BULLY TS-07 BOX",
     category: "shoes",
     image: "images/ts-07-box-white.png",
     color: "black",
@@ -1385,6 +1385,7 @@ const clothes = [
     year: 2026,
   }
 ];
+
 
 
 
