@@ -1088,7 +1088,41 @@ const clothes = [
     year: 2025,
     description: "UTILITY GLOVES"
   },
+  {
+    id: 100,
+    name: "BG-01",
+    category: "accessories",
+    image: "images/BG-01-black.jpeg",
+    color: "black",
+    type: "bag",
+    price: 60,
+    year: 2025,
+    description: "FAUX LEATHER DUFFLE BAG, PADDED SHOULDER STRAP, INTERNAL POCKET"
+  },
+  {
+    id: 101,
+    name: "BG-02",
+    category: "accessories",
+    image: "images/BG-02-black.jpeg",
+    color: "black",
+    type: "bag",
+    price: 60,
+    year: 2025,
+    description: "OVERSIZED DUFFLE"
+  },
+  {
+    id: 101,
+    name: "BG-03",
+    category: "accessories",
+    image: "images/BG-03-GREEN.jpeg",
+    color: "green",
+    type: "bag",
+    price: 60,
+    year: 2025,
+    description: "CANVAS 48 HOUR DUFFLE BAG"
+  }
 ];
+
 
 
 
