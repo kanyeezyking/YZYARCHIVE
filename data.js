@@ -1065,8 +1065,20 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "FLEECE TRACK JACKET"
+  },
+  {
+    id: 98,
+    name: "BX-01",
+    category: "undergarments",
+    image: "images/BX-01-black.jpeg",
+    color: "black",
+    type: "underwear",
+    price: 40,
+    year: 2025,
+    description: "FLEECE TRACK JACKET"
   }
 ];
+
 
 
 
