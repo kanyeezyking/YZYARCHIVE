@@ -1177,17 +1177,40 @@ const clothes = [
     description: "COTTON CANVAS PANT, VINTAGE WASH PROCESSING"
   },
   {
-    id: 107,
-    name: "WP-02",
-    category: "bottoms",
-    image: "images/WP-02-blue.jpeg",
+    id: 108,
+    name: "BB-01",
+    category: "outerwear",
+    image: "images/BB-01-BLUE.JPEG",
     color: "blue",
-    type: "pants",
-    price: 40,
+    type: "bomber",
+    price: 80,
     year: 2025,
-    description: "CARPENTER WORK PANT"
+    description: "BOMBER JACKET, TWO TONE NYLON REVERSIBLE, RIB CUFF AND WAIST"
+  },
+  {
+    id: 109,
+    name: "BB-01",
+    category: "outerwear",
+    image: "images/BB-01-BROWN.JPEG",
+    color: "brown",
+    type: "bomber",
+    price: 80,
+    year: 2025,
+    description: "BOMBER JACKET, TWO TONE NYLON REVERSIBLE, RIB CUFF AND WAIST"
+  },
+  {
+    id: 110,
+    name: "BB-01",
+    category: "outerwear",
+    image: "images/BB-01-GREEN.JPEG",
+    color: "green",
+    type: "bomber",
+    price: 80,
+    year: 2025,
+    description: "BOMBER JACKET, TWO TONE NYLON REVERSIBLE, RIB CUFF AND WAIST"
   }
 ];
+
 
 
 
