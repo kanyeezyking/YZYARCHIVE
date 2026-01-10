@@ -1376,7 +1376,7 @@ const clothes = [
   },
   {
     id: 127,
-    name: "GR-O1",
+    name: "GR-01",
     category: "accessories",
     image: "images/GR-01.png",
     color: "grey",
@@ -1385,6 +1385,7 @@ const clothes = [
     year: 2026,
   }
 ];
+
 
 
 
