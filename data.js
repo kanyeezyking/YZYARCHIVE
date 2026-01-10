@@ -1300,7 +1300,7 @@ const clothes = [
     name: "CHROME VINYL",
     category: "music",
     image: "images/chrome.png",
-    color: "chrome",
+    color: "gray",
     type: "vinyl",
     price: 40,
     year: 2026,
@@ -1385,6 +1385,7 @@ const clothes = [
     year: 2026,
   }
 ];
+
 
 
 
