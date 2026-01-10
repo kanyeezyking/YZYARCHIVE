@@ -28,8 +28,10 @@ const typeOptionsByCategory = {
   tops: ["tshirt", "longsleeve", "bodysuit", "tubetop", "tanktop"],
   bottoms: ["short", "leggings", "pants", "sweatpant"],
   outerwear: ["jacket", "hoodie", "windbreaker", "parka", "bomber", "raincoat", "coat"],
-  accessories: ["hat", "sunglass", "backpack", "belt", "gloves", "bag"],
-  undergarments: ["sock", "underwear", "bra"]
+  accessories: ["hat", "sunglass", "backpack", "belt", "gloves", "bag", "grills"],
+  undergarments: ["sock", "underwear", "bra"],
+  music: ["vinyl", "cd", "cassette"],
+  bundles: ["box"]
 };
 
 /* =====================
@@ -175,6 +177,7 @@ typeFilter.addEventListener("change", applyFilters);
 ===================== */
 
 renderItems(clothes);
+
 
 
 
