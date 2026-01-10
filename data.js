@@ -9,7 +9,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "3 PACK MIDWEIGHT SOCK",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "3 PACK MIDWEIGHT SOCK",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
     
   },
   {
@@ -34,7 +34,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "3 PACK MIDWEIGHT SOCK",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 4,
@@ -46,7 +46,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "BAGGY STRAIGHT LEG SWEATPANT, TWO SIDE POCKETS, DRAWCORD AT INNER WAIST",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 5,
@@ -58,7 +58,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "BAGGY STRAIGHT LEG SWEATPANT, TWO SIDE POCKETS, DRAWCORD AT INNER WAIST",
-    link: "yeezy.com" 
+    link: "https://yeezy.com"
   },
   {
     id: 6,
@@ -70,7 +70,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "SWEATPANTS WITH ELASTIC CUFF, TWO SIDE POCKETS, DRAWCORD AT INNER WAIST",
-    link: "yeezy.com" 
+    link: "https://yeezy.com"
   },
   {
     id: 7,
@@ -82,7 +82,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "SWEATPANTS WITH ELASTIC CUFF, TWO SIDE POCKETS, DRAWCORD AT INNER WAIST",
-    link: "yeezy.com" 
+    link: "https://yeezy.com"
   },
   {
     id: 8,
@@ -94,7 +94,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "SWEATPANTS WITH ELASTIC CUFF, TWO SIDE POCKETS, DRAWCORD AT INNER WAIST",
-    link: "yeezy.com" 
+    link: "https://yeezy.com"
   },
   {
     id: 9,
@@ -106,7 +106,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "BAGGY STRAIGHT LEG SWEATPANT, TWO SIDE POCKETS, DRAWCORD AT INNER WAIST",
-    link: "yeezy.com" 
+    link: "https://yeezy.com"
   },
   {
     id: 10,
@@ -118,7 +118,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "BOXY FIT T-SHIRT,SEAMLESS DROP SHOULDER",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 11,
@@ -130,7 +130,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "BOXY FIT T-SHIRT,SEAMLESS DROP SHOULDER",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 12,
@@ -142,7 +142,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "BOXY FIT T-SHIRT,SEAMLESS DROP SHOULDER" ,
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 13,
@@ -154,7 +154,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "SLIM FIT RAGLAN T-SHIRT",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 14,
@@ -166,7 +166,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "SLIM FIT RAGLAN T-SHIRT",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 15,
@@ -178,7 +178,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "3 PACK SHRUNKEN TEE" ,
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 16,
@@ -190,7 +190,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "3 PACK SHRUNKEN TEE" ,
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 17,
@@ -202,7 +202,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "3 PACK SHRUNKEN TEE" ,
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 18,
@@ -214,7 +214,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "COTTON SPANDEX FITTED BABY TEE",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 19,
@@ -226,7 +226,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "DOUBLE LAYER COMBO, DROP SHOULDER T-SHIRT",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 20,
@@ -238,7 +238,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "BASE T-SHIRT, SET IN SLEVE",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
    {
     id: 21,
@@ -249,7 +249,7 @@ const clothes = [
     type: "tshirt",
     price: 20,
     year: 2025,
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 22,
@@ -261,7 +261,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "CLASSIC PULLOVER HOODIE, DRAWCORD AT HOOD, POCKET AT FRONT",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
    {
     id: 23,
@@ -273,7 +273,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "CLASSIC PULLOVER HOODIE, DRAWCORD AT HOOD, POCKET AT FRONT",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
    {
     id: 24,
@@ -285,7 +285,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "POLAR FLEECE ZIP HOODIE, POCKET AT FRONT",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 25,
@@ -297,7 +297,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "ZIP HOODIE, SEAMLESS DROP SHOULDER, ELASTIC CUFF AND HEM, POCKET AT FRONT",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 26,
@@ -309,7 +309,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "ZIP FRONT SZNX HOODIE, SEAMLESS DROP SHOULDER",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 27,
@@ -321,7 +321,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "ZIP FRONT SZNX HOODIE, SEAMLESS DROP SHOULDER",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 28,
@@ -333,7 +333,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "CLASSIC PULLOVER HOODIE, DRAWCORD AT HOOD, POCKET AT FRONT",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 29,
@@ -345,7 +345,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "ZIP HOODIE, 16 OZ BRUSHED FLEECE, PLASTIC ZIPPER, RIB CUFF AND WAIST",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 30,
@@ -356,7 +356,8 @@ const clothes = [
     type: "hoodie",
     price: 40,
     year: 2025,
-    description: "ZIP HOODIE, 16 OZ BRUSHED FLEECE, PLASTIC ZIPPER, RIB CUFF AND WAIST"
+    description: "ZIP HOODIE, 16 OZ BRUSHED FLEECE, PLASTIC ZIPPER, RIB CUFF AND WAIST",
+    link: "https://yeezy.com"
   },
   {
     id: 31,
@@ -367,7 +368,8 @@ const clothes = [
     type: "short",
     price: 20,
     year: 2025,
-    description: "CLASSIC NYLON SHORT, ELASTIC WAIST, TWO SIDE POCKETS"
+    description: "CLASSIC NYLON SHORT, ELASTIC WAIST, TWO SIDE POCKETS",
+    link: "https://yeezy.com"
   },
   {
     id: 32,
@@ -378,7 +380,8 @@ const clothes = [
     type: "short",
     price: 20,
     year: 2025,
-    description: "CLASSIC NYLON SHORT, ELASTIC WAIST, TWO SIDE POCKETS"
+    description: "CLASSIC NYLON SHORT, ELASTIC WAIST, TWO SIDE POCKETS",
+    link: "https://yeezy.com"
   },
   {
     id: 33,
@@ -390,7 +393,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "COTTON SPANDEX BOY SHORTS",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 34,
@@ -402,7 +405,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "HOODED ZIP FRONT WINDBREAKER, TWO SIDE POCKETS, ELASTIC CUFF AND HEM",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 35,
@@ -414,7 +417,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "HOODED ZIP FRONT WINDBREAKER, TWO SIDE POCKETS, ELASTIC CUFF AND HEM",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 36,
@@ -426,7 +429,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "WINDBREAKER, LIGHTWEIGHT RIPSTOP WINDBREAKER, UNLINED, ELASTIC CUFF AND BOTTOM",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 37,
@@ -438,7 +441,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "WINDBREAKER, LIGHTWEIGHT RIPSTOP WINDBREAKER, UNLINED, ELASTIC CUFF AND BOTTOM",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 38,
@@ -450,7 +453,7 @@ const clothes = [
     price: 60,
     year: 2025,
     description: "FAUX LEATHER HOODED JACKET, ZIP FRONT WITH COVERED PLACKET, ELASTIC CUFF AND HEM, TWO SIDE POCKETS",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 39,
@@ -462,7 +465,7 @@ const clothes = [
     price: 80,
     year: 2025,
     description: "COTTON M65 JACKET, COTTON LINED, HOOD INSIDE COLLAR",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 40,
@@ -474,7 +477,7 @@ const clothes = [
     price: 80,
     year: 2025,
     description: "BOMBER WITH FLEECE HOOD",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 41,
@@ -486,7 +489,7 @@ const clothes = [
     price: 60,
     year: 2025,
     description: "WORK JACKET, COTTON CANVAS JACKET, VINTAGE WASH PROCESSING",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 42,
@@ -498,7 +501,7 @@ const clothes = [
     price: 60,
     year: 2025,
     description: "WORK JACKET, COTTON CANVAS JACKET, VINTAGE WASH PROCESSING",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 43,
@@ -510,7 +513,7 @@ const clothes = [
     price: 60,
     year: 2025,
     description: "STAND COLLAR JACKET, ZIP FRONT CLOSURE, LINED WITH FLEECE, LINED COLLAR",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 44,
@@ -522,7 +525,7 @@ const clothes = [
     price: 60,
     year: 2025,
     description: "COTTON CARGO JACKET, LINED WITH HOOD INSIDE COLLAR",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 45,
@@ -534,7 +537,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "ZIP FRONT POLAR FLEECE HOODIE, TWO SIDE POCKETS, ELASTIC CUFF AND HEM",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 46,
@@ -546,7 +549,7 @@ const clothes = [
     price: 60,
     year: 2025,
     description: "STAND COLLAR FAUX LEATHER JACKET, TWO SIDE POCKETS, ELASTIC BANDED CUFF AND WAIST",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 47,
@@ -558,7 +561,7 @@ const clothes = [
     price: 60,
     year: 2025,
     description: "LEATHER BOMBER, FAUX LEATHER JACKET WITH ELASTIC CUFF AND BOTTOM",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 48,
@@ -570,7 +573,7 @@ const clothes = [
     price: 80,
     year: 2025,
     description: "BOMBER WITH FLEECE HOOD",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 49,
@@ -582,7 +585,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "WATER REPELLENT BACKPACK, CLIP ROLL TOP CLOSURE",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 50,
@@ -594,7 +597,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "BACKPACK, DOUBLE ZIP CLOSURE, ADJUSTABLE PADDED STRAPS, INNER CONCEALED PADDED LAPTOP SLEEVE",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 51,
@@ -606,7 +609,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "ONE PIECE FRAMELESS BRACK WRAP SUNGLASSES, ADJUSTABLE CORD",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 52,
@@ -618,7 +621,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "SAFETY SUNGLASSES, TRANSPARENT, BLACK REMOVABLE CORD",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 53,
@@ -630,7 +633,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "BLACK ACTATE FRAME SUNGLASSES, DARK GREY LENSES",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 54,
@@ -642,7 +645,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "5 PANEL CAP, VELCRO ADJUSTABLE TAB AT BACK",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 55,
@@ -654,7 +657,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "BEANIE",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 56,
@@ -666,7 +669,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "RIB SKI MASK",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 57,
@@ -678,7 +681,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "KNITTED SNEAKER",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 58,
@@ -690,7 +693,7 @@ const clothes = [
     price: 100,
     year: 2025,
     description: "KNEE HIGH RUBBER WEDGE BOOT",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 59,
@@ -702,7 +705,7 @@ const clothes = [
     price: 60,
     year: 2025,
     description: "SCULPTURAL POINTY TOE MULE WITH MICROFIBER FOOTBED, LIGHTWEIGHT STRUCTURE",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 60,
@@ -714,7 +717,7 @@ const clothes = [
     price: 60,
     year: 2025,
     description: "SCULPTURAL OPEN TOE WEDGE WITH RUBBER GRIP BOTTOM, LIGHTWEIGHT STRUCTURE",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 61,
@@ -726,7 +729,7 @@ const clothes = [
     price: 60,
     year: 2025,
     description: "TRANSULCENT POINTY TOE WEDGE MULE",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 62,
@@ -738,7 +741,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "MOLDED SLIP ON SHOE",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 63,
@@ -750,7 +753,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "MOLDED SLIP ON SHOE",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 64,
@@ -762,7 +765,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "MOLDED SLIP ON SHOE, LIGHTWEIGHT",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 65,
@@ -774,7 +777,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "MOLDED SLIP ON SHOE WITH CUSHIONING, LIGHTWEIGHT",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 66,
@@ -785,7 +788,7 @@ const clothes = [
     type: "boot",
     price: 100,
     year: 2025,
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 67,
@@ -797,7 +800,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "COTTON SPANDEX THONG TWO PACK",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 68,
@@ -809,7 +812,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "SHINY TRICOT FOOTED TIGHT",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 69,
@@ -821,7 +824,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "VELVET COTTON YOGA PANT",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 70,
@@ -833,7 +836,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "SHINY TRICOT LEGGING",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 71,
@@ -845,7 +848,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "COATED SCUBA CAPRI LEGGING",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 72,
@@ -857,7 +860,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "BAGGY STRAIGHT LEG NYLON PANT, ELASTIC BANDED WAIST, TWO POCKETS AT SIDE",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 73,
@@ -869,7 +872,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "STRAIGHT LEG 5 POCKET PANT, VELCRO FLY AND CLOSURE, COATED NYLON",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 74,
@@ -881,7 +884,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "COATED MENS BAGGY 5 POCKET PANT",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 75,
@@ -893,7 +896,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "COATED SCUBA LOW RISE TROUSER PANT",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 76,
@@ -905,7 +908,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "COTTON SPANDEX BRALETTE",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 77,
@@ -917,7 +920,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "SHINY TRICOT ADJUSTABLE STRAP CAMI BODYSUIT",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 78,
@@ -929,7 +932,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "SHINY TRICOT FOOTED ADJUSTABLE STRAP JUMPSUIT",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 79,
@@ -941,7 +944,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "SHORT SLEEVE COTTON SPANDEX ROMPER",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 80,
@@ -953,7 +956,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "SHINY TRICOT LONG TUBE TOP",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 81,
@@ -965,7 +968,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "SHINY TRICOT TUBE TOP",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 82,
@@ -977,7 +980,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "3 PACK BASE TANK",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 83,
@@ -989,7 +992,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "YEEZY SLIDE",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 84,
@@ -1001,7 +1004,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "YEEZY SLIDE",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 85,
@@ -1013,7 +1016,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "YEEZY SLIDE",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 86,
@@ -1025,7 +1028,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "YEEZY SLIDE",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 87,
@@ -1037,7 +1040,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "YEEZY SLIDE",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 88,
@@ -1049,7 +1052,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "YEEZY SLIDE",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 89,
@@ -1061,7 +1064,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "YEEZY SLIDE",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 90,
@@ -1073,7 +1076,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "LEATHER BELT, VELCRO SIZE ADJUSTMENT TAB",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 91,
@@ -1085,7 +1088,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "MILITARY CADET HAT, ADJUSTABLE TAB AT BACK",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 92,
@@ -1097,7 +1100,7 @@ const clothes = [
     price: 100,
     year: 2025,
     description: "FAUX LEATHER HOODED PARKA, FAUX FUR HOOD, PUFF INSULATION PADDING, TWO SIDE POCKETS",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 93,
@@ -1109,7 +1112,7 @@ const clothes = [
     price: 100,
     year: 2025,
     description: "FAUX FUR HOODED PARKA, PUFF INSULATION PADDING, TWO SIDE POCKETS",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 94,
@@ -1121,7 +1124,7 @@ const clothes = [
     price: 100,
     year: 2025,
     description: "FAUX FUR HOODED PARKA, PUFF INSULATION PADDING, TWO SIDE POCKETS",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 95,
@@ -1133,7 +1136,7 @@ const clothes = [
     price: 100,
     year: 2025,
     description: "FAUX FUR HOODED PARKA, PUFF INSULATION PADDING, TWO SIDE POCKETS",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 96,
@@ -1145,7 +1148,7 @@ const clothes = [
     price: 80,
     year: 2025,
     description: "WOMENS MOCK NECK FAUX FUR JACKET",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 97,
@@ -1157,7 +1160,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "FLEECE TRACK JACKET",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 98,
@@ -1169,7 +1172,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "3 PACK MENS BOXER BRIEFS, ELASTIC BANDED WAIST",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 99,
@@ -1181,7 +1184,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "UTILITY GLOVES",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 100,
@@ -1193,7 +1196,7 @@ const clothes = [
     price: 60,
     year: 2025,
     description: "FAUX LEATHER DUFFLE BAG, PADDED SHOULDER STRAP, INTERNAL POCKET",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 101,
@@ -1205,7 +1208,7 @@ const clothes = [
     price: 60,
     year: 2025,
     description: "OVERSIZED DUFFLE",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 101,
@@ -1217,7 +1220,7 @@ const clothes = [
     price: 60,
     year: 2025,
     description: "CANVAS 48 HOUR DUFFLE BAG",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 102,
@@ -1229,7 +1232,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "WORK DENIM, COTTON JEANS, STRAIGHT CUT FIT, ELASTIC WAIST BAND",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 103,
@@ -1241,7 +1244,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "WORK DENIM, COTTON JEANS, STRAIGHT CUT FIT, ELASTIC WAIST BAND",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 104,
@@ -1253,7 +1256,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "WORK DENIM, COTTON JEANS, STRAIGHT CUT FIT, ELASTIC WAIST BAND",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 105,
@@ -1277,7 +1280,7 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "COTTON CANVAS PANT, VINTAGE WASH PROCESSING",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 108,
@@ -1289,7 +1292,7 @@ const clothes = [
     price: 80,
     year: 2025,
     description: "BOMBER JACKET, TWO TONE NYLON REVERSIBLE, RIB CUFF AND WAIST",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 109,
@@ -1301,7 +1304,7 @@ const clothes = [
     price: 80,
     year: 2025,
     description: "BOMBER JACKET, TWO TONE NYLON REVERSIBLE, RIB CUFF AND WAIST",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 110,
@@ -1313,7 +1316,7 @@ const clothes = [
     price: 80,
     year: 2025,
     description: "BOMBER JACKET, TWO TONE NYLON REVERSIBLE, RIB CUFF AND WAIST",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 111,
@@ -1325,7 +1328,7 @@ const clothes = [
     price: 80,
     year: 2025,
     description: "MOCK NECK BOMBER, COTTON SELF, COTTON LINING, RIB CUFFS AND BOTTOM",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
 {
     id: 112,
@@ -1337,7 +1340,7 @@ const clothes = [
     price: 80,
     year: 2025,
     description: "RAINCOAT WITH CONCEALED HOOD, TWO SIDE POCKETS, SEAMLESS DROP SHOULDER",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
 {
     id: 113,
@@ -1349,7 +1352,7 @@ const clothes = [
     price: 60,
     year: 2025,
     description: "FULL LENGTH HOODED RAINCOAT, ZIP FRONT CLOSURE, WATERPROOF",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 114,
@@ -1361,7 +1364,7 @@ const clothes = [
     price: 20,
     year: 2025,
     description: "BASE LONG SLEEVE, SET IN SLEEVE",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 115,
@@ -1373,7 +1376,7 @@ const clothes = [
     price: 80,
     year: 2025,
     description: "LONG PADDED COAT, ZIPPED FRONT CLOSURE, FLAP OUTER POCKETS",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 116,
@@ -1385,7 +1388,7 @@ const clothes = [
     price: 80,
     year: 2025,
     description: "LOW TOP SLIP ON SNEAKER WITH FOAM MIDDLE SOLE",
-    link: "yeezy.com"
+    link: "https://yeezy.com"
   },
   {
     id: 117,
@@ -1396,7 +1399,7 @@ const clothes = [
     type: "vinyl",
     price: 40,
     year: 2026,
-    link: "bully.yeezy.com"
+    link: "https://bully.yeezy.com"
   },
   {
     id: 118,
@@ -1407,7 +1410,7 @@ const clothes = [
     type: "vinyl",
     price: 40,
     year: 2026,
-    link: "bully.yeezy.com"
+    link: "https://bully.yeezy.com"
   },
   {
     id: 119,
@@ -1418,7 +1421,7 @@ const clothes = [
     type: "vinyl",
     price: 40,
     year: 2026,
-    link: "bully.yeezy.com"
+    link: "https://bully.yeezy.com"
   },
   {
     id: 120,
@@ -1429,7 +1432,7 @@ const clothes = [
     type: "vinyl",
     price: 40,
     year: 2026,
-    link: "bully.yeezy.com"
+    link: "https://bully.yeezy.com"
   },
   {
     id: 121,
@@ -1440,7 +1443,7 @@ const clothes = [
     type: "vinyl",
     price: 40,
     year: 2026,
-    link: "bully.yeezy.com"
+    link: "https://bully.yeezy.com"
   },
   {
     id: 122,
@@ -1451,7 +1454,7 @@ const clothes = [
     type: "cd",
     price: 20,
     year: 2026,
-    link: "bully.yeezy.com"
+    link: "https://bully.yeezy.com"
   },
   {
     id: 123,
@@ -1462,7 +1465,7 @@ const clothes = [
     type: "cassette",
     price: 20,
     year: 2026,
-    link: "bully.yeezy.com"
+    link: "https://bully.yeezy.com"
   },
   {
     id: 124,
@@ -1472,7 +1475,7 @@ const clothes = [
     type: "digital",
     price: 20,
     year: 2026,
-    link: "bully.yeezy.com"
+    link: "https://bully.yeezy.com"
   },
   {
     id: 125,
@@ -1483,7 +1486,7 @@ const clothes = [
     type: "box",
     price: 40,
     year: 2026,
-    link: "bully.yeezy.com"
+    link: "https://bully.yeezy.com"
   },
   {
     id: 126,
@@ -1494,7 +1497,7 @@ const clothes = [
     type: "sneaker",
     price: 40,
     year: 2026,
-    link: "bully.yeezy.com"
+    link: "https://bully.yeezy.com"
   },
   {
     id: 127,
@@ -1505,9 +1508,10 @@ const clothes = [
     type: "grills",
     price: 40,
     year: 2026,
-    link: "bully.yeezy.com"
+    link: "https://bully.yeezy.com"
   }
 ];
+
 
 
 
