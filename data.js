@@ -1240,9 +1240,43 @@ const clothes = [
     type: "raincoat",
     price: 60,
     year: 2025,
-    description: "FULL LENGTH HOODED RAINCOAT, ZIP FRONT CLOSURE, WATERPROOF""
+    description: "FULL LENGTH HOODED RAINCOAT, ZIP FRONT CLOSURE, WATERPROOF"
+  },
+  {
+    id: 114,
+    name: "LS-03",
+    category: "tops",
+    image: "images/LS-03-WHITE.jpeg",
+    color: "white",
+    type: "longsleeve",
+    price: 20,
+    year: 2025,
+    description: "BASE LONG SLEEVE, SET IN SLEEVE"
+  },
+  {
+    id: 115,
+    name: "CT-01",
+    category: "outerwear",
+    image: "images/CT-01-green.jpeg",
+    color: "green",
+    type: "coat",
+    price: 80,
+    year: 2025,
+    description: "LONG PADDED COAT, ZIPPED FRONT CLOSURE, FLAP OUTER POCKETS"
+  },
+  {
+    id: 116,
+    name: "BL-01",
+    category: "shoes",
+    image: "images/BL-01-BLACK.jpeg",
+    color: "black",
+    type: "sneaker",
+    price: 80,
+    year: 2025,
+    description: "LOW TOP SLIP ON SNEAKER WITH FOAM MIDDLE SOLE"
   }
 ];
+
 
 
 
