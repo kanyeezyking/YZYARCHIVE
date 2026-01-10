@@ -89,3 +89,14 @@ select {
   font-size: 24px;
   cursor: pointer;
 }
+
+.item-link {
+  text-decoration: none;
+  color: black;
+}
+
+.item-link:hover {
+  text-decoration: underline;
+}
+
+
