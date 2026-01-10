@@ -1153,8 +1153,42 @@ const clothes = [
     price: 40,
     year: 2025,
     description: "WORK DENIM, COTTON JEANS, STRAIGHT CUT FIT, ELASTIC WAIST BAND"
+  },
+  {
+    id: 105,
+    name: "WP-01",
+    category: "bottoms",
+    image: "images/WP-01-white.jpeg",
+    color: "white",
+    type: "pants",
+    price: 40,
+    year: 2025,
+    description: "COTTON CANVAS PANT, VINTAGE WASH PROCESSING"
+  },
+  {
+    id: 106,
+    name: "WP-01",
+    category: "bottoms",
+    image: "images/WP-01-black.jpeg",
+    color: "black",
+    type: "pants",
+    price: 40,
+    year: 2025,
+    description: "COTTON CANVAS PANT, VINTAGE WASH PROCESSING"
+  },
+  {
+    id: 107,
+    name: "WP-02",
+    category: "bottoms",
+    image: "images/WP-02-blue.jpeg",
+    color: "blue",
+    type: "pants",
+    price: 40,
+    year: 2025,
+    description: "CARPENTER WORK PANT"
   }
 ];
+
 
 
 
