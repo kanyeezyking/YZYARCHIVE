@@ -1120,8 +1120,42 @@ const clothes = [
     price: 60,
     year: 2025,
     description: "CANVAS 48 HOUR DUFFLE BAG"
+  },
+  {
+    id: 102,
+    name: "WD-01",
+    category: "bottoms",
+    image: "images/WD-01-black.jpeg",
+    color: "black",
+    type: "pants",
+    price: 40,
+    year: 2025,
+    description: "WORK DENIM, COTTON JEANS, STRAIGHT CUT FIT, ELASTIC WAIST BAND"
+  },
+  {
+    id: 103,
+    name: "WD-01",
+    category: "bottoms",
+    image: "images/WD-01-white.jpeg",
+    color: "white",
+    type: "pants",
+    price: 40,
+    year: 2025,
+    description: "WORK DENIM, COTTON JEANS, STRAIGHT CUT FIT, ELASTIC WAIST BAND"
+  },
+  {
+    id: 104,
+    name: "WD-02",
+    category: "bottoms",
+    image: "images/WD-02-GRAY.jpeg",
+    color: "gray",
+    type: "pants",
+    price: 40,
+    year: 2025,
+    description: "WORK DENIM, COTTON JEANS, STRAIGHT CUT FIT, ELASTIC WAIST BAND"
   }
 ];
+
 
 
 
