@@ -1208,8 +1208,42 @@ const clothes = [
     price: 80,
     year: 2025,
     description: "BOMBER JACKET, TWO TONE NYLON REVERSIBLE, RIB CUFF AND WAIST"
+  },
+  {
+    id: 111,
+    name: "BB-02",
+    category: "outerwear",
+    image: "images/BB-02-BLACK.JPEG",
+    color: "black",
+    type: "bomber",
+    price: 80,
+    year: 2025,
+    description: "MOCK NECK BOMBER, COTTON SELF, COTTON LINING, RIB CUFFS AND BOTTOM"
+  },
+{
+    id: 112,
+    name: "RC-03",
+    category: "outerwear",
+    image: "images/RC-03-BLACK.JPEG",
+    color: "black",
+    type: "raincoat",
+    price: 80,
+    year: 2025,
+    description: "RAINCOAT WITH CONCEALED HOOD, TWO SIDE POCKETS, SEAMLESS DROP SHOULDER"
+  },
+{
+    id: 113,
+    name: "RC-04",
+    category: "outerwear",
+    image: "images/RC-04-BLUE.JPEG",
+    color: "blue",
+    type: "raincoat",
+    price: 60,
+    year: 2025,
+    description: "FULL LENGTH HOODED RAINCOAT, ZIP FRONT CLOSURE, WATERPROOF""
   }
 ];
+
 
 
 
