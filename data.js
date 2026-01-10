@@ -1307,7 +1307,7 @@ const clothes = [
   },
   {
     id: 120,
-    name: "BLACK VINYL 18Og",
+    name: "BLACK VINYL 180g",
     category: "music",
     image: "images/black-180.png",
     color: "black",
@@ -1317,7 +1317,7 @@ const clothes = [
   },
   {
     id: 121,
-    name: "BLACK VINYL 14Og",
+    name: "BLACK VINYL 140g",
     category: "music",
     image: "images/black-140.png",
     color: "black",
@@ -1385,6 +1385,7 @@ const clothes = [
     year: 2026,
   }
 ];
+
 
 
 
