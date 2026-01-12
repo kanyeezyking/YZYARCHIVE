@@ -1,5 +1,36 @@
 const clothes = [
   {
+    id: 128,
+    name: "HD-05",
+    category: "outerwear",
+    image: "images/HD-05-white.jpeg",
+    color: "white",
+    type: "hoodie",
+    price: 40,
+    year: 2025
+  },
+  {
+    id: 129,
+    name: "HD-05",
+    category: "outerwear",
+    image: "images/HD-05-gray.jpeg",
+    color: "gray",
+    type: "hoodie",
+    price: 40,
+    year: 2025,
+    link: "https://https://www.goat.com/en-au/apparel/yeezy-hd-05-hoodie-heather-grey-hd-05-heather-grey"
+  },
+  {
+    id: 130,
+    name: "HD-05",
+    category: "outerwear",
+    image: "images/HD-05-black.jpeg",
+    color: "black",
+    type: "hoodie",
+    price: 40,
+    year: 2025
+  },
+  {
     id: 1,
     name: "SK-01",
     category: "undergarments",
@@ -1511,6 +1542,7 @@ const clothes = [
     link: "https://bully.yeezy.com"
   }
 ];
+
 
 
 
