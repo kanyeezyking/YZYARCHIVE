@@ -53,6 +53,26 @@ const clothes = [
     link: "https://stockx.com/yeezy-wb-02-windbreaker-black"
   },
   {
+    id: 133,
+    name: "CN-01",
+    category: "outerwear",
+    image: "images/CN-01-gray.jpeg",
+    color: "gray",
+    type: "crewneck",
+    price: 40,
+    year: 2025
+  },
+  {
+    id: 134,
+    name: "CN-02",
+    category: "outerwear",
+    image: "images/CN-02-white.jpeg",
+    color: "white",
+    type: "crewneck",
+    price: 40,
+    year: 2025
+  },
+  {
     id: 1,
     name: "SK-01",
     category: "undergarments",
@@ -1564,6 +1584,7 @@ const clothes = [
     link: "https://bully.yeezy.com"
   }
 ];
+
 
 
 
