@@ -31,6 +31,28 @@ const clothes = [
     year: 2025
   },
   {
+    id: 131,
+    name: "WB-01",
+    category: "outerwear",
+    image: "images/WB-01-white.jpeg",
+    color: "white",
+    type: "windbreaker",
+    price: 40,
+    year: 2025,
+    link: "https://stockx.com/yeezy-wb-01-windbreaker-ss25-white"
+  },
+  {
+    id: 132,
+    name: "WB-02",
+    category: "outerwear",
+    image: "images/WB-02-black.jpeg",
+    color: "black",
+    type: "windbreaker",
+    price: 40,
+    year: 2025,
+    link: "https://stockx.com/yeezy-wb-02-windbreaker-black"
+  },
+  {
     id: 1,
     name: "SK-01",
     category: "undergarments",
@@ -1542,6 +1564,7 @@ const clothes = [
     link: "https://bully.yeezy.com"
   }
 ];
+
 
 
 
