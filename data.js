@@ -1683,7 +1683,7 @@ const clothes = [
     image: "images/red.png",
     color: "red",
     type: "vinyl",
-    price: 30-40,
+    price: "30-40",
     year: 2026,
     link: "https://bully.yeezy.com"
   },
@@ -1694,7 +1694,7 @@ const clothes = [
     image: "images/clear.png",
     color: "clear",
     type: "vinyl",
-    price: 30-40,
+    price: "30-40",
     year: 2026,
     link: "https://bully.yeezy.com"
   },
@@ -1705,7 +1705,7 @@ const clothes = [
     image: "images/chrome.png",
     color: "gray",
     type: "vinyl",
-    price: 30-40,
+    price: "30-40",
     year: 2026,
     link: "https://bully.yeezy.com"
   },
@@ -1716,7 +1716,7 @@ const clothes = [
     image: "images/black-180.png",
     color: "black",
     type: "vinyl",
-    price: 35-40,
+    price: "35-40",
     year: 2026,
     link: "https://bully.yeezy.com"
   },
@@ -1727,7 +1727,7 @@ const clothes = [
     image: "images/black-140.png",
     color: "black",
     type: "vinyl",
-    price: 15-40,
+    price: "15-40",
     year: 2026,
     link: "https://bully.yeezy.com"
   },
@@ -1738,7 +1738,7 @@ const clothes = [
     image: "images/blcd.png",
     color: "black",
     type: "cd",
-    price: 15-20,
+    price: "15-20",
     year: 2026,
     link: "https://bully.yeezy.com"
   },
@@ -1759,7 +1759,7 @@ const clothes = [
     category: "music",
     image: "images/digi.png",
     type: "digital",
-    price: 8-20,
+    price: "8-20",
     year: 2026,
     link: "https://bully.yeezy.com"
   },
@@ -1770,7 +1770,7 @@ const clothes = [
     image: "images/ts-07-box-black.png",
     color: "black",
     type: "box",
-    price: 40-45,
+    price: "40-45",
     year: 2026,
     description: "TS-07 BLACK, CD, BULLY BOX",
     link: "https://bully.yeezy.com"
@@ -1782,7 +1782,7 @@ const clothes = [
     image: "images/ts-07-box-white.png",
     color: "white",
     type: "box",
-    price: 40/45,
+    price: "40-45",
     year: 2026,
     description: "TS-07 WHITE, CD, BULLY BOX",
     link: "https://bully.yeezy.com"
