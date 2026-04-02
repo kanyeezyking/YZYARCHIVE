@@ -1782,7 +1782,7 @@ const clothes = [
     image: "images/ts-07-box-white.png",
     color: "white",
     type: "box",
-    price: 40-45,
+    price: 40/45,
     year: 2026,
     description: "TS-07 WHITE, CD, BULLY BOX",
     link: "https://bully.yeezy.com"
