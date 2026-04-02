@@ -1,5 +1,104 @@
 const clothes = [
 {
+    id: 145,
+    name: "HD-O1 MASK GRAY",
+    category: "outerwear",
+    image: "images/HD-O1MASKGRAY.png",
+    color: "gray",
+    type: "hoodie",
+    price: 110,
+    year: 2026,
+    link: "https://bully.yeezy.com/collections/sofi"
+  },
+    {
+    id: 146,
+    name: "HD-O1 FLAG GRAY",
+    category: "outerwear",
+    image: "images/HD-O1FLAGGRAY.png",
+    color: "gray",
+    type: "hoodie",
+    price: 110,
+    year: 2026,
+    link: "https://bully.yeezy.com/collections/sofi"
+  },
+    {
+    id: 147,
+    name: "HD-O1 MASK BLACK",
+    category: "outerwear",
+    image: "images/HD-O1MASKBLACK.png",
+    color: "black",
+    type: "hoodie",
+    price: 110,
+    year: 2026,
+    link: "https://bully.yeezy.com/collections/sofi"
+  },
+    {
+    id: 148,
+    name: "LS-O3 MASK BLACK",
+    category: "tops",
+    image: "images/LS-O3MASKBLACK.jpg",
+    color: "black",
+    type: "longsleeve",
+    price: 75,
+    year: 2026,
+    link: "https://bully.yeezy.com/collections/sofi"
+  },
+    {
+    id: 149,
+    name: "LS-O3 YE LIVE BLACK",
+    category: "tops",
+    image: "images/LS-O3YELIVEBLACK.png",
+    color: "black",
+    type: "longsleeve",
+    price: 75,
+    year: 2026,
+    link: "https://bully.yeezy.com/collections/sofi"
+  },
+    {
+    id: 150,
+    name: "TS-O7 MASK BLACK",
+    category: "tops",
+    image: "images/TS-O7MASKBLACK.png",
+    color: "black",
+    type: "tshirt",
+    price: 50,
+    year: 2026,
+    link: "https://bully.yeezy.com/collections/sofi"
+  },
+    {
+    id: 151,
+    name: "HD-O1 FLAG BLACK",
+    category: "outerwear",
+    image: "images/HD-O1FLAGBLACK.png",
+    color: "black",
+    type: "hoodie",
+    price: 110,
+    year: 2026,
+    link: "https://bully.yeezy.com/collections/sofi"
+  },
+    {
+    id: 152,
+    name: "LS-O3 FLAG BLACK",
+    category: "tops",
+    image: "images/LS-O3FLAGBLACK.jpeg",
+    color: "black",
+    type: "longsleeve",
+    price: 75,
+    year: 2026,
+    link: "https://bully.yeezy.com/collections/sofi"
+  },
+    {
+    id: 153,
+    name: "HT-O1 BLACK",
+    category: "accessories",
+    image: "images/HT-O1BLACK.png",
+    color: "black",
+    type: "hat",
+    price: 50,
+    year: 2026,
+    link: "https://bully.yeezy.com/collections/sofi"
+  },
+    {
     id: 141,
     name: "BULLY JP HD-01 BOX",
     category: "bundles",
@@ -82,10 +181,10 @@ const clothes = [
   },
   {
     id: 138,
-    name: "GREY VINYL",
+    name: "GRAY VINYL",
     category: "music",
     image: "images/GREYVINYL.png",
-    color: "grey",
+    color: "gray",
     type: "vinyl",
     price: 30,
     year: 2026,
