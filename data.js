@@ -1,4 +1,70 @@
 const clothes = [
+{
+    id: 135,
+    name: "BLUE VINYL",
+    category: "music",
+    image: "images/BLUEVINYL.png",
+    color: "blue",
+    type: "vinyl",
+    price: 30,
+    year: 2026,
+    link: "https://bully.yeezy.com"
+  },
+  {
+    id: 136,
+    name: "BROWN VINYL",
+    category: "music",
+    image: "images/BROWNVINYL.png",
+    color: "brown",
+    type: "vinyl",
+    price: 30,
+    year: 2026,
+    link: "https://bully.yeezy.com"
+  },
+  {
+    id: 137,
+    name: "TAN VINYL",
+    category: "music",
+    image: "images/TANVINYL.png",
+    color: "brown",
+    type: "vinyl",
+    price: 30,
+    year: 2026,
+    link: "https://bully.yeezy.com"
+  },
+  {
+    id: 138,
+    name: "GREY VINYL",
+    category: "music",
+    image: "images/GREYVINYL.png",
+    color: "grey",
+    type: "vinyl",
+    price: 30,
+    year: 2026,
+    link: "https://bully.yeezy.com"
+  },
+  {
+    id: 139,
+    name: "BULLY LP SIGNED",
+    category: "music",
+    image: "images/BULLYLPSIGNED.png",
+    color: "black",
+    type: "vinyl",
+    price: 50,
+    year: 2026,
+    link: "https://bully.yeezy.com"
+  },
+   {
+    id: 140,
+    name: "BULLY CD SIGNED",
+    category: "music",
+    image: "images/BULLYCDSIGNED.png",
+    color: "black",
+    type: "cd",
+    price: 50,
+    year: 2026,
+    link: "https://bully.yeezy.com"
+  },
   {
     id: 128,
     name: "HD-05",
@@ -1546,7 +1612,7 @@ const clothes = [
     category: "music",
     image: "images/digi.png",
     type: "digital",
-    price: 20,
+    price: 8-20,
     year: 2026,
     link: "https://bully.yeezy.com"
   },
@@ -1559,6 +1625,7 @@ const clothes = [
     type: "box",
     price: 40,
     year: 2026,
+    description: "TS-07 BLACK, CD, BULLY BOX",
     link: "https://bully.yeezy.com"
   },
   {
@@ -1566,10 +1633,11 @@ const clothes = [
     name: "BULLY TS-07 BOX",
     category: "shoes",
     image: "images/ts-07-box-white.png",
-    color: "black",
-    type: "sneaker",
+    color: "white",
+    type: "box",
     price: 40,
     year: 2026,
+    description: "TS-07 WHITE, CD, BULLY BOX",
     link: "https://bully.yeezy.com"
   },
   {
