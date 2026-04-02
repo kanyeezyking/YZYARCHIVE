@@ -1,5 +1,53 @@
 const clothes = [
 {
+    id: 141,
+    name: "BULLY JP HD-01 BOX",
+    category: "bundles",
+    image: "images/BULLYJPHD-01BOX.jpeg",
+    color: "black",
+    type: "box",
+    price: 75,
+    year: 2026,
+    description: "HD-01 BLACK, CD, BULLY BOX",
+    link: "https://bully.yeezy.com"
+  },
+    {
+    id: 142,
+    name: "BULLY JP HD-01 BOX",
+    category: "bundles",
+    image: "images/BULLYJPHD-01BOX1.jpeg",
+    color: "black",
+    type: "box",
+    price: 75,
+    year: 2026,
+    description: "HD-01 BLACK, CD, BULLY BOX",
+    link: "https://bully.yeezy.com"
+  },
+    {
+    id: 143,
+    name: "BULLY JP TS-07 BOX",
+    category: "bundles",
+    image: "images/BULLYJPTS-07BOX.jpeg",
+    color: "black",
+    type: "box",
+    price: 45,
+    year: 2026,
+    description: "TS-07 BLACK, CD, BULLY BOX",
+    link: "https://bully.yeezy.com"
+  },
+    {
+    id: 144,
+    name: "BULLY JP TS-07 BOX",
+    category: "bundles",
+    image: "images/BULLYJPTS-07BOX1.jpeg",
+    color: "black",
+    type: "box",
+    price: 45,
+    year: 2026,
+    description: "TS-07 BLACK, CD, BULLY BOX",
+    link: "https://bully.yeezy.com"
+  },
+    {
     id: 135,
     name: "BLUE VINYL",
     category: "music",
