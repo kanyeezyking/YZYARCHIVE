@@ -1,5 +1,38 @@
 const clothes = [
 {
+    id: 162,
+    name: "LS-O3 MASK WHITE",
+    category: "tops",
+    image: "images/LS-O3MASKWHITE.png",
+    color: "white",
+    type: "longsleeve",
+    price: 75,
+    year: 2026,
+    link: "https://bully.yeezy.com/collections/sofi"
+  },
+    {
+    id: 163,
+    name: "LS-O3 YE LIVE WHITE",
+    category: "tops",
+    image: "images/LS-O3YELIVEWHITE.png",
+    color: "white",
+    type: "longsleeve",
+    price: 75,
+    year: 2026,
+    link: "https://bully.yeezy.com/collections/sofi"
+  },
+    {
+    id: 164,
+    name: "TS-O7 MASK WHITE",
+    category: "tops",
+    image: "images/TS-O7MASKWHITE.png",
+    color: "white",
+    type: "tshirt",
+    price: 50,
+    year: 2026,
+    link: "https://bully.yeezy.com/collections/sofi"
+  },
+    {
     id: 154,
     name: "HD-O1 MASK RED",
     category: "outerwear",
@@ -1866,7 +1899,7 @@ const clothes = [
   {
     id: 126,
     name: "BULLY TS-07 BOX",
-    category: "shoes",
+    category: "bundles",
     image: "images/ts-07-box-white.png",
     color: "white",
     type: "box",
