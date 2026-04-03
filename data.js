@@ -1,5 +1,93 @@
 const clothes = [
 {
+    id: 154,
+    name: "HD-O1 MASK RED",
+    category: "outerwear",
+    image: "images/HD-O1MASKRED.png",
+    color: "red",
+    type: "hoodie",
+    price: 110,
+    year: 2026,
+    link: "https://bully.yeezy.com/collections/sofi"
+  },
+    {
+    id: 155,
+    name: "LS-O3 MASK RED",
+    category: "tops",
+    image: "images/LS-O3MASKRED.png",
+    color: "red",
+    type: "longsleeve",
+    price: 75,
+    year: 2026,
+    link: "https://bully.yeezy.com/collections/sofi"
+  },
+    {
+    id: 156,
+    name: "LS-O3 YE LIVE RED",
+    category: "tops",
+    image: "images/LS-O3YELIVERED.png",
+    color: "red",
+    type: "longsleeve",
+    price: 75,
+    year: 2026,
+    link: "https://bully.yeezy.com/collections/sofi"
+  },
+    {
+    id: 157,
+    name: "TS-O7 MASK RED",
+    category: "tops",
+    image: "images/TS-O7MASKRED.png",
+    color: "red",
+    type: "tshirt",
+    price: 50,
+    year: 2026,
+    link: "https://bully.yeezy.com/collections/sofi"
+  },
+    {
+    id: 158,
+    name: "HD-O1 MASK YELLOW",
+    category: "outerwear",
+    image: "images/HD-O1MASKYELLOW.png",
+    color: "yellow",
+    type: "hoodie",
+    price: 110,
+    year: 2026,
+    link: "https://bully.yeezy.com/collections/sofi"
+  },
+    {
+    id: 159,
+    name: "LS-O3 MASK YELLOW",
+    category: "tops",
+    image: "images/LS-O3MASKYELLOW.png",
+    color: "yellow",
+    type: "longsleeve",
+    price: 75,
+    year: 2026,
+    link: "https://bully.yeezy.com/collections/sofi"
+  },
+    {
+    id: 160,
+    name: "LS-O3 YE LIVE YELLOW",
+    category: "tops",
+    image: "images/LS-O3YELIVEYELLOW.png",
+    color: "yellow",
+    type: "longsleeve",
+    price: 75,
+    year: 2026,
+    link: "https://bully.yeezy.com/collections/sofi"
+  },
+    {
+    id: 161,
+    name: "TS-O7 MASK YELLOW",
+    category: "tops",
+    image: "images/TS-O7MASKYELLOW.png",
+    color: "yellow",
+    type: "tshirt",
+    price: 50,
+    year: 2026,
+    link: "https://bully.yeezy.com/collections/sofi"
+  },
+    {
     id: 145,
     name: "HD-01 MASK GRAY",
     category: "outerwear",
